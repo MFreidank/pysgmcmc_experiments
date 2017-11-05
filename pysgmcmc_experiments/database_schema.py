@@ -1,12 +1,30 @@
 #!/usr/bin/python3
 # -*- coding: iso-8859-15 -*-
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import (
-    Column, Integer, Float, String, DateTime, Sequence, ForeignKey
+    Column, Integer, Float, String, DateTime, ForeignKey
 )
+from sqlalchemy_utils import database_exists, create_database
 
 
 Base = declarative_base()
+
+
+def write_to_database(database_values, database_url):
+    assert database_exists(database_url)
+
+    engine = create_engine(database_url)
+
+    Base.metadata.bind = engine
+
+    session = sessionmaker(bind=engine)()
+
+    for database_value in database_values:
+        session.add(database_value)
+
+    session.commit()
 
 
 class Experiment(Base):
@@ -19,26 +37,42 @@ class Experiment(Base):
     __tablename__ = "experiments"
 
     # XXX How to generate a sequence properly here?
-    experiment_id = Column(Integer, Sequence(), primary_key=True)
+    experiment_id = Column(Integer, primary_key=True)
 
-    n_trials = Column(Integer)
+    n_trials = Column(Integer, nullable=False)
+    n_repetitions = Column(Integer, nullable=False)
 
-    date_time = Column(DateTime)
+    date_time = Column(DateTime, nullable=False)
 
 
-class Trial(Base):
+class TrialStatus(Base):
+    """ A trial status represents status information where a trial for a particular experiment
+        terminated unsucessfully. It represents a way to log errors in a
+        visible and easily accessible way. This also allows us to selectively
+        re-run only those experiments that failed.
+    """
+
+    __tablename__ = "trialerrors"
+
+    trial_id = Column(Integer, primary_key=True)
+    experiment_id = Column(ForeignKey(Experiment.experiment_id), nullable=False)
+    status = Column(String, nullable=False)
+    error = Column(String, nullable=True)
+
+
+class StepsizeTrial(Base):
     """ A trial represents a single run of a `sampler` with a given `stepsize`
         and sampler `parameters` on a given `benchmark`.
         We track the `time and date` of submission, and the resulting `samples` with
         their corresponding `costs` and most importantly:
         the value(s) of the target `metric` for this run.
     """
-    __tablename__ = "trials"
+    __tablename__ = "stepsize_trials"
 
-    # XXX: How to generate a sequence properly here?
-    trial_id = Column(Integer, Sequence(), primary_key=True)
+    dummy_id = Column(Integer, primary_key=True)
 
-    # XXX Ensure that this is how foreign keys are defined
+    trial_id = Column(ForeignKey(TrialStatus.trial_id), nullable=False)
+
     experiment_id = Column(ForeignKey(Experiment.experiment_id), nullable=False)
 
     stepsize = Column(Float, nullable=False)
@@ -60,13 +94,26 @@ class Trial(Base):
     date_time = Column(DateTime)
 
 
-class TrialStatus(Base):
-    """ A trial status represents status information where a trial for a particular experiment
-        terminated unsucessfully. It represents a way to log errors in a
-        visible and easily accessible way. This also allows us to selectively
-        re-run only those experiments that failed.
-    """
+def main():
+    import argparse
+    import sys
 
-    __tablename__ = "trialerrors"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("database_path", help="Relative path to database.")
+    parser.add_argument("--db-type", dest="db_type", default="sqlite")
 
-    trial_id = Column(Integer, Sequence())
+    args = parser.parse_args()
+
+    engine = create_engine("{db_type}:///{path}".format(
+        db_type=args.db_type, path=args.database_path)
+    )
+
+    if not database_exists(engine.url):
+        create_database(engine.url)
+    else:
+        print("Database at path: '{}' already exists!".format(engine.url))
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
