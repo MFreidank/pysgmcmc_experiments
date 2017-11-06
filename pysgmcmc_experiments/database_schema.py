@@ -12,21 +12,6 @@ from sqlalchemy_utils import database_exists, create_database
 Base = declarative_base()
 
 
-def write_to_database(database_values, database_url):
-    assert database_exists(database_url)
-
-    engine = create_engine(database_url)
-
-    Base.metadata.bind = engine
-
-    session = sessionmaker(bind=engine)()
-
-    for database_value in database_values:
-        session.add(database_value)
-
-    session.commit()
-
-
 class Experiment(Base):
     """
     An experiment represents a series of `n_trial` trials.
@@ -81,15 +66,13 @@ class StepsizeTrial(Base):
 
     sampler = Column(String, nullable=False)  # name of the sampler used, e.g. SGHMC
 
-    parameters = Column(String)  # json encoded dictionary of all sampler?
+    parameters = Column(String, nullable=False)  # json encoded dictionary of sampler parameters
+
+    parameter_names = Column(String, nullable=False)  # json encoded list of all (tensorflow) target parameter names
 
     samples = Column(String)  # json encoded list of all samples from `benchmark`
 
     costs = Column(String)  # json encoded cost for each sample in samples
-
-    metric_name = Column(String, nullable=False)  # name of the metric used.
-
-    metric_value = Column(String, nullable=False)  # json encoded metric results
 
     date_time = Column(DateTime)
 
@@ -110,6 +93,7 @@ def main():
 
     if not database_exists(engine.url):
         create_database(engine.url)
+        Base.metadata.create_all(engine)
     else:
         print("Database at path: '{}' already exists!".format(engine.url))
         sys.exit(1)
