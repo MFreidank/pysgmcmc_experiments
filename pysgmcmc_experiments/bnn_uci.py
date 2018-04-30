@@ -20,10 +20,6 @@ experiment.observers.append(
 )
 
 
-@experiment.config
-def configuration_setup():
-    raise NotImplementedError()
-
 DATASETS = OrderedDict((
     ("Boston Housing", BostonHousing),
     ("Yacht Hydrodynamics", YachtHydrodynamics),
@@ -64,5 +60,9 @@ if __name__ == "__main__":
     stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 0.01)
     samplers = tuple(SAMPLERS.keys())
 
-    for sampler, stepsize in product(tuple(SAMPLERS.keys()), stepsizes):
+    configurations = product(
+        tuple(DATASETS.keys()), tuple(SAMPLERS.keys()), stepsizes
+    )
+
+    for dataset, sampler, stepsize in configurations:
         experiment.run(config_updates={"sampler": sampler, "stepsize": stepsize})
