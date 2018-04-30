@@ -10,6 +10,8 @@ from pysgmcmc.samplers.energy_functions import (
     Banana, Gmm1, Gmm2, Gmm3, MoGL2HMC, to_negative_log_likelihood
 )
 
+from utils import package_versions
+
 experiment = Experiment("Energy_Functions")
 experiment.observers.append(
     MongoObserver.create(experiment.get_experiment_info()["name"])
@@ -47,7 +49,8 @@ def get_chains(sampler, stepsize, energy_function, num_chains, samples_per_chain
         ]
 
     return {
-        "chains": [chain() for _ in range(num_chains)]
+        "chains": [chain() for _ in range(num_chains)],
+        "packages": package_versions()
     }
 
 

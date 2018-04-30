@@ -11,29 +11,16 @@ from pysgmcmc.models.objective_functions import sinc
 from pysgmcmc.optimizers.sghmc import SGHMC
 from pysgmcmc.optimizers.sghmchd import SGHMCHD
 
-from utils import package_versions
+from utils import package_versions, init_random_uniform
 
 experiment = Experiment("Bayesian Neural Network: 'sinc' fit.")
 experiment.observers.append(MongoObserver.create(db_name="BNN_sinc"))
 
-OPTIMIZERS = {
-    "SGHMC": SGHMC, "SGHMCHD": SGHMCHD
-}
-
-
-def init_random_uniform(lower, upper, num_points, rng=None):
-    if rng is None:
-        rng = np.random.RandomState(np.random.randint(0, 10000))
-
-    n_dims = lower.shape[0]
-
-    return np.array(
-        [rng.uniform(lower, upper, n_dims) for _ in range(num_points)]
-    )
+OPTIMIZERS = {"SGHMC": SGHMC, "SGHMCHD": SGHMCHD}
 
 
 @experiment.main
-def fit_bnn(sampler, stepsize, _rnd, _seed, num_training_datapoints=100):
+def fit_bnn(sampler, stepsize, _rnd, _seed, num_training_datapoints=20):
     x_train = init_random_uniform(
         np.zeros(1), np.ones(1), num_points=num_training_datapoints,
         rng=np.random.RandomState(seed=_seed)

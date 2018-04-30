@@ -12,6 +12,8 @@ from pysgmcmc.models.dataset_wrappers import (
 from pysgmcmc.optimizers.sghmc import SGHMC
 from pysgmcmc.optimizers.sghmchd import SGHMCHD
 
+from utils import package_versions
+
 experiment = Experiment("BNN_UCI")
 experiment.observers.append(
     MongoObserver.create(
@@ -52,7 +54,8 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
     return {
         "x_train": x_train, "y_train": y_train,
         "x_test": x_test, "y_test": y_test,
-        "prediction_mean": prediction_mean, "prediction_std": prediction_std
+        "prediction_mean": prediction_mean, "prediction_std": prediction_std,
+        "packages": package_versions()
     }
 
 
