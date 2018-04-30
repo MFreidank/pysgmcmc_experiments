@@ -14,8 +14,6 @@ from pysgmcmc.optimizers.sghmchd import SGHMCHD
 from utils import package_versions
 
 experiment = Experiment("Bayesian Neural Network: 'sinc' fit.")
-# XXX: This does not work, how can we attach observers such that they
-# store calls from experiment.run
 experiment.observers.append(MongoObserver.create(db_name="BNN_sinc"))
 
 OPTIMIZERS = {
