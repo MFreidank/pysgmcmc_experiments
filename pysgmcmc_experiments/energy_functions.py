@@ -9,20 +9,22 @@ from pysgmcmc.samplers.sgld import SGLDSampler
 from pysgmcmc.samplers.energy_functions import (
     Banana, Gmm1, Gmm2, Gmm3, MoGL2HMC, to_negative_log_likelihood
 )
+from keras import backend as K
 
 from utils import package_versions
 
 experiment = Experiment("Energy_Functions")
 experiment.observers.append(
-    MongoObserver.create(experiment.get_experiment_info()["name"])
+    MongoObserver.create(db_name=experiment.get_experiment_info()["name"])
 )
 
 ENERGY_FUNCTIONS = {
-    "banana": (Banana(), None),
-    "gmm1": (Gmm1(), None),
-    "gmm2": (Gmm2(), None),
-    "gmm3": (Gmm3(), None),
-    "mog-l2hmc": (MoGL2HMC(), None),
+    "banana": (Banana(), lambda: [K.random_normal_variable(shape=(1,), mean=0., scale=1., name="x"),
+                                  K.random_normal_variable(shape=(1,), mean=0., scale=1., name="y")],),
+    "gmm1": (Gmm1(), lambda: [K.variable(K.random_normal((1,)), name="x")],),
+    "gmm2": (Gmm2(), lambda: [K.variable(K.random_normal((1,)), name="x")]),
+    "gmm3": (Gmm3(), lambda: [K.variable(K.random_normal((1,)), name="x")]),
+    # "mog-l2hmc": (MoGL2HMC(), None),
 }
 
 SAMPLERS = {
@@ -38,7 +40,7 @@ def get_chains(sampler, stepsize, energy_function, num_chains, samples_per_chain
     def chain():
         initial_sample = initial_guess()
         sampler_object = SAMPLERS[sampler](
-            loss=to_negative_log_likelihood(function),
+            loss=to_negative_log_likelihood(function)(initial_sample),
             params=initial_sample,
             lr=stepsize, burn_in_steps=burn_in_steps,
         )
