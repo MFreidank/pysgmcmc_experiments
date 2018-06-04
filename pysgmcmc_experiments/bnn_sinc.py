@@ -36,9 +36,9 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
 
     model = BayesianNeuralNetwork(
         optimizer=OPTIMIZERS[sampler], lr=stepsize,
-         logging_configuration={
-             "level": logging.WARN, "datefmt": "y/m/d"
-         },
+        logging_configuration={
+            "level": logging.WARN, "datefmt": "y/m/d"
+        },
     )
 
     model.train(x_train, y_train)
@@ -49,7 +49,8 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     return {
         "x_train": x_train.tolist(), "y_train": y_train.tolist(),
         "x_test": x_test.tolist(), "y_test": y_test.tolist(),
-        "prediction_mean": prediction_mean.tolist(), "prediction_std": prediction_std.tolist(),
+        "prediction_mean": prediction_mean.tolist(),
+        "prediction_std": prediction_std.tolist(),
         "packages": package_versions()
     }
 
