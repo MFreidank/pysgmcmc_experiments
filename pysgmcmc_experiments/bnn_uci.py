@@ -34,7 +34,7 @@ SAMPLERS = {"SGHMC": SGHMC, "SGHMCHD": SGHMCHD}
 
 @experiment.main
 def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
-            burn_in_steps=5000, num_steps=15000, num_nets=100,
+            burn_in_steps=5000, num_steps=15000,
             batch_size=32, test_split=0.1):
     (x_train, y_train), (x_test, y_test) = DATASETS[dataset].load_data(
         test_split=test_split, seed=_seed
@@ -43,7 +43,7 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
     model = BayesianNeuralNetwork(
         optimizer=SAMPLERS[sampler],
         n_steps=num_steps,
-        burn_in_steps=burn_in_steps, num_nets=num_nets,
+        burn_in_steps=burn_in_steps,
         batch_size=batch_size
     )
 
