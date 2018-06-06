@@ -68,4 +68,6 @@ if __name__ == "__main__":
     )
 
     for dataset, sampler, stepsize in configurations:
-        experiment.run(config_updates={"sampler": sampler, "stepsize": stepsize})
+        experiment.run(config_updates={
+            "sampler": sampler, "stepsize": stepsize, "dataset": dataset
+        })
