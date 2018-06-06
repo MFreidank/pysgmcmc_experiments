@@ -1,3 +1,4 @@
+from os.path import dirname, join as path_join
 from collections import OrderedDict
 from itertools import product
 from keras.datasets import boston_housing as BostonHousing
@@ -60,7 +61,7 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
 
 
 if __name__ == "__main__":
-    stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 0.01)
+    stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 1e-2, 5e-2, 8e-2, 1e-1)
     samplers = tuple(SAMPLERS.keys())
 
     configurations = product(
