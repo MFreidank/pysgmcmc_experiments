@@ -36,6 +36,7 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     x_test = np.linspace(0, 1, 100)[:, None]
     y_test = sinc(x_test)
 
+    optimizer_kwargs = {}
     if sampler == "SGHMCHD":
         optimizer_kwargs = {"hypergradients_for": ("lr",)}
 
