@@ -2,14 +2,12 @@
 # -*- coding: iso-8859-15 -*-
 
 from sacred import Experiment
-from sacred.observers import MongoObserver
+from sacred.observers import FileStorageObserver
 import numpy as np
-from os.path import expanduser
+from os.path import dirname, expanduser, join as path_join
 from itertools import product
 import logging
 
-import sys
-sys.path.insert(0, expanduser("~/pysgmcmc_pytorch/"))
 from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
 from pysgmcmc.models.objective_functions import sinc
 from pysgmcmc.optimizers.sghmc import SGHMC
@@ -17,8 +15,11 @@ from pysgmcmc.optimizers.sghmchd import SGHMCHD
 
 from utils import package_versions, init_random_uniform
 
-experiment = Experiment("Bayesian Neural Network: 'sinc' fit.")
-experiment.observers.append(MongoObserver.create(db_name="BNN_sinc"))
+experiment.observers.append(
+    FileStorageObserver.create(
+        path_join(dirname(__file__), "..", "results", "bnn_sinc")
+    )
+)
 
 OPTIMIZERS = {"SGHMC": SGHMC, "SGHMCHD": SGHMCHD}
 
@@ -34,11 +35,15 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     x_test = np.linspace(0, 1, 100)[:, None]
     y_test = sinc(x_test)
 
+    if sampler == "SGHMCHD":
+        optimizer_kwargs = {"hypergradients_for": ("lr",)}
+
     model = BayesianNeuralNetwork(
         optimizer=OPTIMIZERS[sampler], lr=stepsize,
         logging_configuration={
             "level": logging.WARN, "datefmt": "y/m/d"
         },
+        **optimizer_kwargs
     )
 
     model.train(x_train, y_train)
@@ -55,7 +60,7 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     }
 
 if __name__ == "__main__":
-    stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 1e-2)
+    stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 1e-2, 5e-2, 8e-2, 1e-1)
     samplers = tuple(OPTIMIZERS.keys())
 
     data_seed = np.random.randint(0, 100)

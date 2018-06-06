@@ -3,7 +3,7 @@ from itertools import product
 from keras.datasets import boston_housing as BostonHousing
 import numpy as np
 from sacred import Experiment
-from sacred.observers import MongoObserver
+from sacred.observers import FileStorageObserver
 
 from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
 from pysgmcmc.models.dataset_wrappers import (
@@ -16,8 +16,8 @@ from utils import package_versions
 
 experiment = Experiment("BNN_UCI")
 experiment.observers.append(
-    MongoObserver.create(
-        db_name=experiment.get_experiment_info()["name"]
+    FileStorageObserver.create(
+        path_join(dirname(__file__), "..", "results", "bnn_uci")
     )
 )
 
