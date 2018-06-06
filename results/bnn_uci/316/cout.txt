@@ -1,0 +1,11 @@
+INFO - BNN_UCI - Running command 'fit_bnn'
+INFO - BNN_UCI - Started run with ID "316"
+/home/freidanm/repos/pytorch_experiments/experiments_env/src/pysgmcmc/pysgmcmc/data/datasets.py:14: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  x_train = train_data.as_matrix(feature_columns)
+/home/freidanm/repos/pytorch_experiments/experiments_env/src/pysgmcmc/pysgmcmc/data/datasets.py:15: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  y_train = train_data[label_column].as_matrix()
+/home/freidanm/repos/pytorch_experiments/experiments_env/src/pysgmcmc/pysgmcmc/data/datasets.py:17: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  x_test = test_data.as_matrix(feature_columns)
+/home/freidanm/repos/pytorch_experiments/experiments_env/src/pysgmcmc/pysgmcmc/data/datasets.py:18: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  y_test = test_data[label_column].as_matrix()
+INFO - root - Performing 15000 iterations

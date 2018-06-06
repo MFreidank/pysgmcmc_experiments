@@ -1,0 +1,63 @@
+{
+  "artifacts": [],
+  "command": "fit_bnn",
+  "experiment": {
+    "base_dir": "/home/freidanm/repos/pytorch_experiments/pysgmcmc_experiments",
+    "dependencies": [
+      "numpy==1.14.3",
+      "pysgmcmc==0.0.1",
+      "sacred==0.7.3"
+    ],
+    "mainfile": "bnn_uci.py",
+    "name": "BNN_UCI",
+    "repositories": [],
+    "sources": [
+      [
+        "bnn_uci.py",
+        "_sources/bnn_uci_60647570ae7be1b4efd9a842ce10156a.py"
+      ],
+      [
+        "utils.py",
+        "_sources/utils_3bdfe4d17068fc05d51c766034aa01f0.py"
+      ]
+    ]
+  },
+  "heartbeat": "2018-06-06T11:39:19.155119",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz",
+    "hostname": "metaex05",
+    "os": [
+      "Linux",
+      "Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial"
+    ],
+    "python_version": "3.5.2"
+  },
+  "meta": {
+    "command": "fit_bnn",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2018-06-06T11:29:03.689418",
+  "status": "RUNNING"
+}
