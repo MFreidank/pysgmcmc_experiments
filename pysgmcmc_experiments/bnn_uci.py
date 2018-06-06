@@ -42,7 +42,7 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
 
     model = BayesianNeuralNetwork(
         optimizer=SAMPLERS[sampler],
-        n_steps=num_steps,
+        num_steps=num_steps,
         burn_in_steps=burn_in_steps,
         batch_size=batch_size
     )
