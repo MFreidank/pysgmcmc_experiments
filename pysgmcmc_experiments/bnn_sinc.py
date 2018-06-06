@@ -4,7 +4,7 @@
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
 import numpy as np
-from os.path import dirname, expanduser, join as path_join
+from os.path import dirname, join as path_join
 from itertools import product
 import logging
 
@@ -15,6 +15,7 @@ from pysgmcmc.optimizers.sghmchd import SGHMCHD
 
 from utils import package_versions, init_random_uniform
 
+experiment = Experiment("BNN_SINC")
 experiment.observers.append(
     FileStorageObserver.create(
         path_join(dirname(__file__), "..", "results", "bnn_sinc")
