@@ -1,14 +1,13 @@
 from os.path import dirname, join as path_join
 from collections import OrderedDict
 from itertools import product
-from keras.datasets import boston_housing as BostonHousing
 import numpy as np
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
 
 from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
-from pysgmcmc.models.dataset_wrappers import (
-    WineQualityRed, YachtHydrodynamics, Concrete
+from pysgmcmc.data.datasets import (
+    BostonHousing, WineQualityRed, YachtHydrodynamics, Concrete
 )
 from pysgmcmc.optimizers.sghmc import SGHMC
 from pysgmcmc.optimizers.sghmchd import SGHMCHD
