@@ -1,3 +1,4 @@
+import logging
 from os.path import dirname, join as path_join
 from collections import OrderedDict
 from itertools import product
@@ -44,7 +45,8 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, dataset,
         optimizer=SAMPLERS[sampler],
         num_steps=num_steps,
         burn_in_steps=burn_in_steps,
-        batch_size=batch_size
+        batch_size=batch_size,
+        logging_configuration={"level": logging.WARN}
     )
 
     model.train(x_train, y_train)
