@@ -49,7 +49,8 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
         **optimizer_kwargs
     )
 
-    prediction_mean, prediction_variance = model.train(x_train, y_train).predict(x_test)
+    model.train(x_train, y_train)
+    prediction_mean, prediction_variance = model.predict(x_test)
 
     prediction_std = np.sqrt(prediction_variance)
 
