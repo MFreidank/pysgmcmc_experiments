@@ -14,7 +14,8 @@ def main():
     parser.add_argument(
         "scriptpath",
         help="Path to sacred experiment script to submit.\n"
-             "Must define exactly one function decorated with `sacred.experiment.automain`."
+             "Must define a local variable called experiment "
+             "containing an instance of `pysgmcmc_experiments.experiment_wrapper.SacredExperiment`."
     )
     parser.add_argument(
         "--job-filename",
@@ -50,15 +51,6 @@ def main():
 
     with open(args.job_filename, "w") as f:
         f.writelines(experiment.to_jobs(interpreter=args.interpreter))
-        """
-        for input_combination in input_combinations(experiment_module):
-            arguments = "with {configuration}".format(
-                configuration=" ".join(
-                    "{parameter}={value}".format(parameter=parameter, value=input_combination._asdict()[parameter])
-                    for parameter in input_combination._fields
-                )
-            )
-        """
 
     # XXX: Submit jobs file to cluster queue
 
