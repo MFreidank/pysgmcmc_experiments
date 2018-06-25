@@ -6,6 +6,9 @@ PYSGMCMC_DIR = path_join(dirname(__file__), "../../../pysgmcmc_keras")
 
 sys.path.insert(0, PYSGMCMC_DIR)
 
+sys.path.insert(0, "..")
+from pysgmcmc_experiments.experiment_wrapper import to_experiment
+
 import numpy as np
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
@@ -18,18 +21,22 @@ from pysgmcmc.optimizers.sghmc import SGHMC
 
 from utils import init_random_uniform, package_versions
 
-experiment = Experiment("BNN_sinc")
-experiment.observers.append(
-    FileStorageObserver.create(
-        path_join(dirname(__file__), "..", "results", "bnn_sinc")
-    )
-)
+SAMPLERS = {
+    "SGHMC": SGHMC,
+    "SGHMCHD": None  # XXX: Add sghmchd here (in multiple variants?)
+}
 
-OPTIMIZERS = {"SGHMC": SGHMC, "SGHMCHD": SGHMCHD}
+num_repetitions = 10
+DATA_SEEDS = list(range(num_repetitions))
+
+STEPSIZES = (1e-9, 1e-7, 1e-5, 1e-3, 1e-2, 5e-2, 1e-1)
+CONFIGURATIONS = tuple((
+    {"sampler": sampler, "stepsize": stepsize, "data_seed": data_seed}
+    for data_seed, sampler, stepsize in product(DATA_SEEDS, SAMPLERS, STEPSIZES)
+))
 
 
-@experiment.main
-def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=20):
+def fit_sinc(sampler, stepsize, data_seed, num_training_datapoints=20):
     x_train = init_random_uniform(
         np.zeros(1), np.ones(1), num_points=num_training_datapoints,
         rng=np.random.RandomState(seed=data_seed)
@@ -39,13 +46,9 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     x_test = np.linspace(0, 1, 100)[:, None]
     y_test = sinc(x_test)
 
-    optimizer_kwargs = {}
-
-    if sampler == "SGHMCHD":
-        optimizer_kwargs = {"hypergradients_for": ("lr",)}
-
+    sampler, kwargs = SAMPLERS[sampler]
     model = BayesianNeuralNetwork(
-        optimizer=OPTIMIZERS[sampler], learning_rate=stepsize,
+        optimizer=sampler, learning_rate=stepsize,
         **optimizer_kwargs
     )
 
@@ -55,23 +58,12 @@ def fit_bnn(sampler, stepsize, _rnd, _seed, data_seed, num_training_datapoints=2
     prediction_std = np.sqrt(prediction_variance)
 
     return {
-        "x_train": x_train.tolist(), "y_train": y_train.tolist(),
-        "x_test": x_test.tolist(), "y_test": y_test.tolist(),
         "prediction_mean": prediction_mean.tolist(),
         "prediction_std": prediction_std.tolist(),
-        "packages": package_versions()
     }
 
-if __name__ == "__main__":
-    stepsizes = (1e-9, 1e-7, 1e-5, 1e-3, 1e-2)
-
-    samplers = tuple(OPTIMIZERS.keys())
-
-    data_seed = np.random.randint(0, 10000)
-
-    for sampler, stepsize in product(tuple(OPTIMIZERS.keys()), stepsizes):
-        experiment.run(
-            config_updates={
-                "sampler": sampler, "stepsize": stepsize, "data_seed": data_seed
-            }
-        )
+experiment = to_experiment(
+    experiment_name="bnn_sinc",
+    function=fit_sinc,
+    configurations=CONFIGURATIONS,
+)
