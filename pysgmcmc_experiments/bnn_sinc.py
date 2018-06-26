@@ -1,17 +1,11 @@
-from itertools import product
-from os.path import dirname, join as path_join
 import sys
-
-PYSGMCMC_DIR = path_join(dirname(__file__), "../../../pysgmcmc_keras")
-
-sys.path.insert(0, PYSGMCMC_DIR)
-
-sys.path.insert(0, "..")
+from os.path import dirname, join as path_join
+sys.path.insert(0, path_join(dirname(__file__), "robo"))
+sys.path.insert(0, path_join(dirname(__file__), "pysgmcmc_development"))
+from itertools import product
 from pysgmcmc_experiments.experiment_wrapper import to_experiment
 
 import numpy as np
-from sacred import Experiment
-from sacred.observers import FileStorageObserver
 
 from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
 from pysgmcmc.models.objective_functions import sinc
@@ -19,7 +13,7 @@ from pysgmcmc.models.objective_functions import sinc
 from pysgmcmc.optimizers.sghmchd_new import SGHMCHD
 from pysgmcmc.optimizers.sghmc import SGHMC
 
-from utils import init_random_uniform, package_versions
+from utils import init_random_uniform
 
 SAMPLERS = {
     "SGHMC": SGHMC,

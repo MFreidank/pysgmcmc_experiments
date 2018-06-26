@@ -1,6 +1,7 @@
 import sys
-sys.path.insert(0, "../../../pysgmcmc_keras/")
-sys.path.insert(0, "..")
+from os.path import dirname, join as path_join
+sys.path.insert(0, path_join(dirname(__file__), "robo"))
+sys.path.insert(0, path_join(dirname(__file__), "pysgmcmc_development"))
 from itertools import product
 
 import numpy as np
