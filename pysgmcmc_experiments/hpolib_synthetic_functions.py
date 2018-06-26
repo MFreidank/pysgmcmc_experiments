@@ -10,10 +10,8 @@ from itertools import product
 from pysgmcmc_experiments.experiment_wrapper import to_experiment
 
 import numpy as np
-from robo.fmin import (
-    bayesian_optimization, entropy_search, random_search,
-    bohamiann, keras_bohamiann,
-)
+from robo.fmin import (bayesian_optimization, entropy_search, random_search, bohamiann)
+from robo.fmin.keras_bohamiann import bohamiann as keras_bohamiann
 import hpolib.benchmarks.synthetic_functions as hpobench
 
 BENCHMARKS = OrderedDict((
@@ -39,7 +37,6 @@ METHODS = OrderedDict((
     ("keras_bohamiann", keras_bohamiann),
 ))
 
-# XXX: Properly format configurations for hpolib thing
 CONFIGURATIONS = tuple((
     {"benchmark": benchmark, "method": method}
     for benchmark, method in product(BENCHMARKS, METHODS)
@@ -54,7 +51,7 @@ def optimize_function(benchmark,
                       num_init=2):
     assert benchmark in BENCHMARKS
     assert method in METHODS
-    print("{method} on {benchmark}".format(method=method, benchmark=benchmark)
+    print("{method} on {benchmark}".format(method=method, benchmark=benchmark))
 
     benchmark_function = BENCHMARKS[benchmark]
     info = benchmark_function.get_meta_information()
@@ -65,9 +62,7 @@ def optimize_function(benchmark,
     if method == "entropy_search":
         results = method_function(
             benchmark_function, bounds[:, 0], bounds[:, 1],
-            num_iterations=num_iterations,
-            maximizer=maximizer,
-            n_init=num_init
+            num_iterations=num_iterations, n_init=num_init
         )
     elif method == "random_search":
         results = method_function(
