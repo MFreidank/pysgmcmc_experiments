@@ -72,7 +72,6 @@ def optimize_function(benchmark,
         results = method_function(
             benchmark_function, bounds[:, 0], bounds[:, 1],
             num_iterations=num_iterations,
-            n_init=num_init
         )
 
     else:
