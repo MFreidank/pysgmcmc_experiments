@@ -54,6 +54,7 @@ def optimize_function(benchmark,
                       num_init=2):
     assert benchmark in BENCHMARKS
     assert method in METHODS
+    print("{method} on {benchmark}".format(method=method, benchmark=benchmark)
 
     benchmark_function = BENCHMARKS[benchmark]
     info = benchmark_function.get_meta_information()
@@ -61,7 +62,7 @@ def optimize_function(benchmark,
 
     method_function = METHODS[method]
 
-    if method in ("entropy_search",):
+    if method == "entropy_search":
         results = method_function(
             benchmark_function, bounds[:, 0], bounds[:, 1],
             num_iterations=num_iterations,
