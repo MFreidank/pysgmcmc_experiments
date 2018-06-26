@@ -11,7 +11,7 @@ from pysgmcmc_experiments.experiment_wrapper import to_experiment
 import numpy as np
 from robo.fmin import (
     bayesian_optimization, entropy_search, bohamiann, random_search,
-    keras_bohamiann,
+    # keras_bohamiann,
 )
 import hpolib.benchmarks.synthetic_functions as hpobench
 
@@ -35,7 +35,7 @@ METHODS = OrderedDict((
     ("entropy_search", entropy_search),
     ("random_search", random_search),
     ("bohamiann", bohamiann),
-    ("keras_bohamiann", keras_bohamiann),
+    # ("keras_bohamiann", keras_bohamiann),
 ))
 
 # XXX: Properly format configurations for hpolib thing
