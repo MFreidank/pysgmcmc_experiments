@@ -1,5 +1,6 @@
 import sys
 from os.path import dirname, join as path_join
+sys.path.insert(0, path_join(dirname(__file__), ".."))
 sys.path.insert(0, path_join(dirname(__file__), "robo"))
 sys.path.insert(0, path_join(dirname(__file__), "pysgmcmc_development"))
 from collections import OrderedDict

@@ -34,8 +34,13 @@ def main():
         default="meta_core.q"
     )
 
+    parser.add_argument(
+        "--head", help="Only submit first `n` jobs.",
+        default=None
+    )
+
     args = parser.parse_args()
-    assert isfile(args.scriptpath)
+    assert isfile(args.scriptpath), args.scriptpath
 
     script_name, _ = splitext(args.scriptpath)
 
@@ -50,7 +55,10 @@ def main():
         raise  # XXX: better error handling
 
     with open(args.job_filename, "w") as f:
-        f.writelines(experiment.to_jobs(interpreter=args.interpreter))
+        if args.head is not None:
+            f.writelines(experiment.to_jobs(interpreter=args.interpreter)[:int(args.head)])
+        else:
+            f.writelines(experiment.to_jobs(interpreter=args.interpreter))
 
     # XXX: Submit jobs file to cluster queue
 
