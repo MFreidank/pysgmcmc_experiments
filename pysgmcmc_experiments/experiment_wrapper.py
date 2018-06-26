@@ -25,7 +25,7 @@ def to_experiment(experiment_name, configurations, function, observers=None):
 
                 )
 
-        def to_jobs(self, interpreter="/usr/bin/python3"):
+        def to_jobs(self, interpreter="/usr/bin/python3", scriptpath=abspath(__file__)):
             def format_configuration(configuration):
                 return " ".join(
                     "{parameter}={value}".format(parameter=parameter, value=value)
@@ -34,7 +34,7 @@ def to_experiment(experiment_name, configurations, function, observers=None):
             return tuple(
                 "{interpreter} {script} with {configuration}\n".format(
                     interpreter=interpreter,
-                    script=abspath(__file__),
+                    script=scriptpath,
                     configuration=format_configuration(configuration)
                 )
                 for configuration in self.configurations
