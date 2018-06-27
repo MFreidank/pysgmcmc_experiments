@@ -40,7 +40,12 @@ def main():
         "--head", help="Only submit first `n` jobs.",
         default=None
     )
-    
+
+    parser.add_argument(
+        "--repeat", help="Repeat n times. Defaults to `1`.",
+        default=1, type=int,
+    )
+
     parser.add_argument(
         "--long-running",
         help="Flag to state that a job will have runtime > 1h 23 min",
@@ -96,10 +101,11 @@ def main():
     print(args.job_filename)
 
     with open(args.job_filename, "w") as f:
-        if args.head is not None:
-            f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath)[:int(args.head)])
-        else:
-            f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath))
+        for _ in range(args.repeat):
+            if args.head is not None:
+                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath)[:int(args.head)])
+            else:
+                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath))
 
     # Submit jobs file to cluster queue
 
