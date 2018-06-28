@@ -1,0 +1,1651 @@
+INFO - hpolib - Running command 'optimize_function'
+INFO - hpolib - Started run with ID "167"
+INFO - robo.solver.bayesian_optimization - Evaluate: [-41.49117975 -32.61615468]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 3849.775810 in 0.000203 seconds
+INFO - robo.solver.bayesian_optimization - Evaluate: [ 94.62981551 -47.33048458]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 13435.781708 in 0.000131 seconds
+INFO - robo.solver.bayesian_optimization - Start iteration 2 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.550617
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 11.807635
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 70.389471 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-42.46981321 -38.27329845]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 4734.542965 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000271 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-41.49117975 -32.61615468] with estimated performance 3849.775810
+INFO - robo.solver.bayesian_optimization - Start iteration 3 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.735525
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.735769
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 50.396818 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-97.11934156  -5.21262003]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 9487.695413 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000175 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-41.49117975 -32.61615468] with estimated performance 3849.775810
+INFO - robo.solver.bayesian_optimization - Start iteration 4 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.180402
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.1590567274 &       0.0219227510 \\\\ 
+   13 &      -0.1650735284 &       0.3591426577 \\\\ 
+   19 &      -0.1651405839 &       0.3591426577 \\\\ 
+   35 &      -0.1690077610 &       0.3591426577 \\\\ 
+   43 &      -0.1871118280 &       0.3591426577 \\\\ 
+   49 &      -0.5645387959 &       0.3591426577 \\\\ 
+   55 &      -0.5742101821 &       0.3591426577 \\\\ 
+   63 &      -0.5766787980 &       0.3591426577 \\\\ 
+   81 &      -0.7086363248 &       0.3591426577 \\\\ 
+   89 &      -0.7262161401 &       0.3591426577 \\\\ 
+   97 &      -0.7320186878 &       0.3591426577 \\\\ 
+  117 &      -0.7339316710 &       0.3591426577 \\\\ 
+  133 &      -0.7552773858 &       0.3591426577 \\\\ 
+  139 &      -0.7557753328 &       0.3591426577 \\\\ 
+  147 &      -0.7591531027 &       0.3591426577 \\\\ 
+  157 &      -0.7593004007 &       0.3591426577 \\\\ 
+  173 &      -0.7600855607 &       0.3591426577 \\\\ 
+  181 &      -0.7601371620 &       0.4608434321 \\\\ 
+  191 &      -0.7604457601 &       0.4608434321 \\\\ 
+  199 &      -0.7604627457 &       0.7846769164 \\\\ 
+  255 &      -0.8673612577 &       0.7846769164 \\\\ 
+  261 &      -0.9271365424 &       0.7846769164 \\\\ 
+  269 &      -1.0319828255 &       0.7846769164 \\\\ 
+  275 &      -1.0454258541 &       0.7846769164 \\\\ 
+  283 &      -1.0807683400 &       0.7846769164 \\\\ 
+  289 &      -1.0839820057 &       0.7846769164 \\\\ 
+  297 &      -1.0843977193 &       0.7846769164 \\\\ 
+  303 &      -1.0845551363 &       0.7846769164 \\\\ 
+  317 &      -1.0854886281 &       0.7846769164 \\\\ 
+  325 &      -1.0856961281 &       0.7846769164 \\\\ 
+  337 &      -1.0857692608 &       0.7846769164 \\\\ 
+  345 &      -1.0858159959 &       0.7846769164 \\\\ 
+  361 &      -1.0858298972 &       0.7846769164 \\\\ 
+  385 &      -1.0858308505 &       0.7846769164 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -7.2624478149 &      -0.0096781732 \\\\ 
+   13 &     -52.6965083481 &       3.2328341716 \\\\ 
+   29 &     -69.7580776916 &       4.1600049037 \\\\ 
+   37 &     -69.7827930495 &       4.1600049037 \\\\ 
+   49 &     -69.7841586804 &       4.1600049037 \\\\ 
+   85 &     -70.0017095887 &       4.1600049037 \\\\ 
+  113 &     -70.0017747949 &       4.1600049037 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.003944
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 59.520931 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-19.93598537  36.03109282]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 2994.005923 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000268 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-19.93598537  36.03109282] with estimated performance 2994.005923
+INFO - robo.solver.bayesian_optimization - Start iteration 5 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.875295
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.298753
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 59.781065 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-78.31123304 -75.11050145]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 17416.745117 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000246 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-19.93598537  36.03109282] with estimated performance 2994.005923
+INFO - robo.solver.bayesian_optimization - Start iteration 6 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.806370
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.197754
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 64.258936 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [33.2876086  90.53497942]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 17501.295338 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000246 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-19.93598537  36.03109282] with estimated performance 2994.005923
+INFO - robo.solver.bayesian_optimization - Start iteration 7 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.946971
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -2.8719828240 &      -0.1384998573 \\\\ 
+   13 &      -3.8166761155 &      -0.1112202285 \\\\ 
+   19 &      -4.5038583662 &      -0.1112202285 \\\\ 
+   29 &      -4.6436697362 &      -0.1112202285 \\\\ 
+   39 &      -4.6519207872 &       0.0505211240 \\\\ 
+   57 &      -4.6711500443 &       0.0505211240 \\\\ 
+   69 &      -4.7261202678 &       0.0505211240 \\\\ 
+   97 &      -4.7279222340 &       0.0505211240 \\\\ 
+  137 &      -4.7280309096 &       0.0505211240 \\\\ 
+  183 &      -4.7281813282 &       0.0505211240 \\\\ 
+  199 &      -4.7281848246 &       0.0505211240 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -4.2270028214 &       0.0036323821 \\\\ 
+   13 &      -4.7903658856 &       0.0036323821 \\\\ 
+   19 &      -6.9964061744 &       0.0036323821 \\\\ 
+   25 &      -7.6912857938 &       0.0036323821 \\\\ 
+   33 &      -8.2489268932 &       0.0036323821 \\\\ 
+   39 &      -8.2935102261 &       0.1115668594 \\\\ 
+   51 &      -8.4283682598 &       0.1115668594 \\\\ 
+   61 &      -8.4471597458 &       0.1115668594 \\\\ 
+   77 &      -8.4950434637 &       0.1115668594 \\\\ 
+   97 &      -8.5260339521 &       0.3874568590 \\\\ 
+  111 &      -8.5341818859 &       0.3874568590 \\\\ 
+  121 &      -8.5351566424 &       0.3874568590 \\\\ 
+  157 &      -8.5353738957 &       0.3874568590 \\\\ 
+  181 &      -8.5355148228 &       0.3874568590 \\\\ 
+  255 &      -8.5355214289 &       0.3874568590 \\\\ 
+  379 &      -8.5355240336 &       0.3874568590 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -7.0679712103 &       1.1463370092 \\\\ 
+   13 &      -9.7739596094 &       1.1463370092 \\\\ 
+   19 &     -12.0009365255 &       1.1463370092 \\\\ 
+   29 &     -12.7267589258 &       1.1463370092 \\\\ 
+   49 &     -12.8090080272 &       1.1463370092 \\\\ 
+   63 &     -12.8188484688 &       1.1463370092 \\\\ 
+   81 &     -12.8279206634 &       1.1463370092 \\\\ 
+   99 &     -12.8307862263 &       1.1463370092 \\\\ 
+  119 &     -12.8316842335 &       1.1463370092 \\\\ 
+  177 &     -12.8317514743 &       1.1463370092 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.212008
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 62.293585 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [76.17741198 87.51714678]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 21121.839635 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000305 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-19.93598537  36.03109282] with estimated performance 2994.005923
+INFO - robo.solver.bayesian_optimization - Start iteration 8 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.770160
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.337051
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 68.104764 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-17.28395062 -20.85048011]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1168.773210 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000245 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-17.28395062 -20.85048011] with estimated performance 1168.773210
+INFO - robo.solver.bayesian_optimization - Start iteration 9 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.418723
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &     -14.6571007272 &       0.1525435089 \\\\ 
+   13 &     -18.8371411386 &       0.1901299516 \\\\ 
+   17 &     -20.8115107041 &       0.1901299516 \\\\ 
+   23 &     -21.9491688352 &       0.1901299516 \\\\ 
+   31 &     -25.2835196709 &       0.1901299516 \\\\ 
+   49 &     -25.7093806976 &       0.2164394038 \\\\ 
+   79 &     -25.8241601825 &       0.2164394038 \\\\ 
+   95 &     -25.8258086327 &       0.2164394038 \\\\ 
+  103 &     -25.8617169499 &       0.2164394038 \\\\ 
+  115 &     -25.9805144597 &       0.2164394038 \\\\ 
+  121 &     -25.9806770352 &       0.2164394038 \\\\ 
+  135 &     -25.9840993478 &       0.2164394038 \\\\ 
+  179 &     -25.9910707583 &       0.7581640733 \\\\ 
+  199 &     -25.9913450228 &       0.7581640733 \\\\ 
+  219 &     -25.9918308399 &       1.2028102927 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -3.0690804854 &       0.3555642186 \\\\ 
+    7 &      -3.8761851111 &       0.3555642186 \\\\ 
+   13 &      -4.4078526734 &       0.3555642186 \\\\ 
+   19 &      -5.2670225594 &       0.3555642186 \\\\ 
+   25 &      -5.8441107732 &       0.3555642186 \\\\ 
+   49 &      -5.8569933114 &       0.3555642186 \\\\ 
+   73 &      -5.8683579998 &       0.3555642186 \\\\ 
+   83 &      -5.8788681805 &       1.0493049781 \\\\ 
+  101 &      -8.9768251086 &       1.0493049781 \\\\ 
+  129 &      -9.0389531050 &       1.0493049781 \\\\ 
+  153 &      -9.0418417994 &       1.0493049781 \\\\ 
+  167 &      -9.1501634212 &       1.0493049781 \\\\ 
+  173 &      -9.1599393851 &       1.0493049781 \\\\ 
+  185 &      -9.2332933971 &       1.0493049781 \\\\ 
+  203 &      -9.2917283417 &       1.1606580736 \\\\ 
+  211 &      -9.3268142423 &       1.1606580736 \\\\ 
+  221 &      -9.7577754790 &       1.1606580736 \\\\ 
+  235 &      -9.8970040955 &       1.1606580736 \\\\ 
+  241 &      -9.8971800839 &       1.1606580736 \\\\ 
+  249 &      -9.9427256908 &       1.1606580736 \\\\ 
+  257 &      -9.9427567885 &       1.1606580736 \\\\ 
+  265 &      -9.9578161521 &       1.1606580736 \\\\ 
+  279 &      -9.9628197633 &       1.1606580736 \\\\ 
+  301 &      -9.9644857664 &       1.1606580736 \\\\ 
+  359 &     -10.8247551369 &       1.1606580736 \\\\ 
+  365 &     -10.8846900645 &       1.1606580736 \\\\ 
+  373 &     -10.9199071367 &       1.1606580736 \\\\ 
+  395 &     -10.9212790506 &       1.1606580736 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.062925
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 63.495898 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ -8.53528426 -26.36793172]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1464.024271 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000244 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-17.28395062 -20.85048011] with estimated performance 1168.773210
+INFO - robo.solver.bayesian_optimization - Start iteration 10 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.903900
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.071643
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 66.152676 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [  3.01783265 -12.34567901]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 315.078738 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [  3.01783265 -12.34567901] with estimated performance 315.078738
+INFO - robo.solver.bayesian_optimization - Start iteration 11 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.729225
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+---------------------------------------------------------------------------
+    5 &      -4.2741153734 &       0.1917045939 \\\\ 
+   11 &      -6.2188131088 &       0.1917045939 \\\\ 
+   23 &      -8.7924914454 &       0.1917045939 \\\\ 
+   29 &      -9.5105143347 &       1.4108628945 \\\\ 
+   39 &      -9.5785079312 &       1.4108628945 \\\\ 
+   57 &      -9.7073316672 &       1.4108628945 \\\\ 
+   63 &      -9.7120604531 &       1.4108628945 \\\\ 
+   79 &      -9.7237386908 &       1.4108628945 \\\\ 
+  167 &      -9.7238879583 &       1.9828346174 \\\\ 
+  223 &      -9.7238902509 &       1.9828346174 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -7.4084650104 &      -0.0441549698 \\\\ 
+   13 &      -9.6312253375 &      -0.0441549698 \\\\ 
+   27 &     -10.4395399732 &      -0.0441549698 \\\\ 
+   33 &     -10.5263094005 &       0.1300367336 \\\\ 
+   43 &     -12.4464927638 &       0.1300367336 \\\\ 
+   59 &     -14.6983494224 &       0.1300367336 \\\\ 
+   67 &     -14.9175061737 &       0.1300367336 \\\\ 
+   75 &     -15.9739451199 &       1.0220614237 \\\\ 
+   93 &     -16.0989942535 &       1.0220614237 \\\\ 
+  103 &     -16.1428826882 &       1.0220614237 \\\\ 
+  115 &     -16.1525836635 &       1.0220614237 \\\\ 
+  125 &     -16.1616026881 &       1.0220614237 \\\\ 
+  141 &     -16.1836449930 &       1.0220614237 \\\\ 
+  147 &     -16.1843939782 &       1.0220614237 \\\\ 
+  159 &     -16.1915661097 &       1.0220614237 \\\\ 
+  167 &     -16.1924275473 &       1.0220614237 \\\\ 
+  181 &     -16.1933998494 &       1.0220614237 \\\\ 
+  197 &     -16.1939725380 &       1.0220614237 \\\\ 
+  251 &     -16.1941529318 &       1.0220614237 \\\\ 
+  273 &     -16.1954615965 &       1.0220614237 \\\\ 
+  299 &     -16.1957500913 &       1.0220614237 \\\\ 
+  319 &     -16.1957819330 &       1.0220614237 \\\\ 
+  353 &     -16.1972220935 &       1.0220614237 \\\\ 
+  363 &     -16.4431072598 &       1.0220614237 \\\\ 
+  387 &     -16.4673359857 &       1.0220614237 \\\\ 
+  403 &     -16.5283999530 &       1.0220614237 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -1.4310136172 &       2.1580621158 \\\\ 
+    7 &      -1.5929181339 &       2.1580621158 \\\\ 
+   13 &      -3.2538820414 &       2.1580621158 \\\\ 
+   29 &      -3.4221411630 &       2.1580621158 \\\\ 
+   41 &      -3.5919914066 &       2.1580621158 \\\\ 
+   57 &      -3.6028613641 &       2.1580621158 \\\\ 
+   73 &      -3.6335906051 &       2.4245611286 \\\\ 
+   83 &      -3.6611798414 &       2.4245611286 \\\\ 
+   99 &      -3.7159911485 &       2.4245611286 \\\\ 
+  115 &      -3.7897125140 &       2.4245611286 \\\\ 
+  135 &      -3.7903020744 &       2.4245611286 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.629218
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 69.845541 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ 59.39812698 -99.86959982]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 23476.492770 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000247 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [  3.01783265 -12.34567901] with estimated performance 315.078738
+INFO - robo.solver.bayesian_optimization - Start iteration 12 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.857003
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.214105
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 65.142885 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-4.9382716  -0.18289895]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 25.670102 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000254 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 13 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.601535
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.266859
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 54.366142 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ -0.91449474 -57.79606767]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 6682.849748 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000180 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 14 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.745383
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+  161 &      -3.7960313135 &       2.4245611286 \\\\ 
+  185 &      -3.8030865666 &       2.4245611286 \\\\ 
+  201 &      -3.8032020001 &       2.4245611286 \\\\ 
+  215 &      -3.8034722741 &       2.4245611286 \\\\ 
+  235 &      -3.8070159317 &       2.4245611286 \\\\ 
+  249 &      -3.8072300282 &       2.4245611286 \\\\ 
+  269 &      -3.8074969993 &       2.4245611286 \\\\ 
+  285 &      -3.8086393232 &       2.4245611286 \\\\ 
+  303 &      -3.8151033099 &       2.4245611286 \\\\ 
+  321 &      -3.8183097619 &       2.4245611286 \\\\ 
+  349 &      -3.8183641728 &       2.4245611286 \\\\ 
+  365 &      -3.8183920504 &       2.4245611286 \\\\ 
+  391 &      -3.8186015568 &       2.4245611286 \\\\ 
+  411 &      -3.8186696344 &       2.4245611286 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &     -16.1076744080 &      -0.0249700008 \\\\ 
+   17 &     -17.1907459700 &       0.4122011108 \\\\ 
+   33 &     -17.3905887751 &       0.4122011108 \\\\ 
+   63 &     -17.3927659318 &       0.6827532166 \\\\ 
+   89 &     -17.3933575746 &       0.6827532166 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -2.4102903627 &      -0.0083049689 \\\\ 
+   21 &      -2.7545099101 &       0.1050388591 \\\\ 
+   43 &      -2.7563389140 &       0.1050388591 \\\\ 
+   53 &      -2.7597769230 &       0.1050388591 \\\\ 
+   67 &      -2.7622782936 &       0.2432092815 \\\\ 
+   81 &      -2.7635082915 &       0.2432092815 \\\\ 
+  101 &      -2.7635427135 &       0.3453832350 \\\\ 
+  147 &      -2.7636267848 &       0.4395916204 \\\\ 
+  205 &      -2.7636631837 &       0.4395916204 \\\\ 
+  217 &      -2.7636678600 &       0.4395916204 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -1.0948190757 &       0.7819108928 \\\\ 
+   13 &      -1.3071895797 &       3.7363530977 \\\\ 
+   19 &      -1.7046452485 &       3.7363530977 \\\\ 
+   29 &      -1.7354085065 &       3.7363530977 \\\\ 
+   49 &      -1.7388890164 &       3.7363530977 \\\\ 
+   77 &      -1.7390397280 &       3.7363530977 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.779616
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 55.007762 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-44.53589392  16.73525377]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 2544.576874 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000244 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 15 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.111482
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.626018
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 55.984642 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-61.27114769  46.45633288]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 8070.644061 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000245 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 16 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.035583
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.258517
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 55.950234 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-99.98475842  85.23090992]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 24526.359564 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000244 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 17 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.815617
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+  115 &      -1.7391357924 &       5.4564548541 \\\\ 
+  213 &      -1.7391459971 &       5.4564548541 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.5304294247 &       0.0353448196 \\\\ 
+   13 &      -3.3309546214 &       0.0353448196 \\\\ 
+   17 &      -4.3763803478 &       0.0353448196 \\\\ 
+   31 &      -4.6446147488 &       0.0353448196 \\\\ 
+   77 &      -4.6620377456 &       0.0353448196 \\\\ 
+  115 &      -4.6636049426 &       0.2748204853 \\\\ 
+  143 &      -4.6641075747 &       0.2748204853 \\\\ 
+  187 &      -4.6646744406 &       0.2748204853 \\\\ 
+  243 &      -4.6648256779 &       0.2748204853 \\\\ 
+  261 &      -4.6650367627 &       0.2748204853 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0130566872 &       2.0868143056 \\\\ 
+    7 &      -1.6814386383 &       2.0868143056 \\\\ 
+   13 &      -2.4762457803 &       2.0868143056 \\\\ 
+   19 &      -2.5258104743 &       2.0868143056 \\\\ 
+   27 &      -2.7155570180 &       2.0868143056 \\\\ 
+   37 &      -2.7693233209 &       2.0868143056 \\\\ 
+   47 &      -2.7853518492 &       2.0868143056 \\\\ 
+   57 &      -2.7938145740 &       2.0868143056 \\\\ 
+   73 &      -2.8041879529 &       2.0868143056 \\\\ 
+  107 &      -2.8064996975 &       2.3197330257 \\\\ 
+  123 &      -2.8086830026 &       2.3197330257 \\\\ 
+  137 &      -2.8094012459 &       2.3197330257 \\\\ 
+  177 &      -2.8096384489 &       2.3197330257 \\\\ 
+  229 &      -2.8099145590 &       2.3197330257 \\\\ 
+  263 &      -2.8101356826 &       2.3197330257 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0382441832 &       0.1061050638 \\\\ 
+   11 &      -0.0702828845 &       0.1061050638 \\\\ 
+   23 &      -0.0792050628 &       0.1061050638 \\\\ 
+   39 &      -0.0850985372 &       0.1061050638 \\\\ 
+   45 &      -0.0881540179 &       0.1061050638 \\\\ 
+   53 &      -0.0887298755 &       0.1061050638 \\\\ 
+   59 &      -0.0897762607 &       0.1061050638 \\\\ 
+   69 &      -0.0900776784 &       0.1061050638 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.545853
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 53.172026 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-12.43712849   2.34720317]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 166.705332 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000248 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 18 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.019056
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.274398
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 44.260361 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [3.35314739 8.32190215]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 150.404454 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000185 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 19 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.633828
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.867128
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 36.790233 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [9.87654321 2.49961896]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 110.223476 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000243 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-4.9382716  -0.18289895] with estimated performance 25.670102
+INFO - robo.solver.bayesian_optimization - Start iteration 20 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.861712
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+   77 &      -0.0901055537 &       0.1186650698 \\\\ 
+   87 &      -0.0929055691 &       0.1186650698 \\\\ 
+   91 &      -0.0939967827 &       0.1186650698 \\\\ 
+   97 &      -0.0940019755 &       0.1186650698 \\\\ 
+  113 &      -0.0940557659 &       0.1186650698 \\\\ 
+  123 &      -0.0940570303 &       0.1186650698 \\\\ 
+  141 &      -0.0940752751 &       0.1186650698 \\\\ 
+  151 &      -0.0940788159 &       0.1186650698 \\\\ 
+  223 &      -0.0940789310 &       0.1186650698 \\\\ 
+  275 &      -0.0940799152 &       0.1186650698 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.3269138000 &       0.0063981525 \\\\ 
+   11 &      -0.3364178128 &       0.0088767414 \\\\ 
+   23 &      -0.3809133413 &       0.0088767414 \\\\ 
+   31 &      -0.4011162515 &       0.0088767414 \\\\ 
+   45 &      -0.4096041432 &       0.0088767414 \\\\ 
+   57 &      -0.4109082392 &       0.0088767414 \\\\ 
+   71 &      -0.4176440268 &       0.0088767414 \\\\ 
+   91 &      -0.4177195384 &       0.0088767414 \\\\ 
+  103 &      -0.4182080570 &       0.0088767414 \\\\ 
+  151 &      -0.4182125768 &       0.0088767414 \\\\ 
+  169 &      -0.4182135334 &       0.0088767414 \\\\ 
+  333 &      -0.4182144890 &       0.0108560776 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.2369708667 &      -0.0000253772 \\\\ 
+   11 &      -0.3002194104 &       0.0000008584 \\\\ 
+   23 &      -0.3368923509 &       0.0000008584 \\\\ 
+   41 &      -0.3470132738 &       0.0000008584 \\\\ 
+   47 &      -0.3522238732 &       0.0000008584 \\\\ 
+   57 &      -0.3544024908 &       0.0000008584 \\\\ 
+   75 &      -0.3549754397 &       0.0007240346 \\\\ 
+  101 &      -0.3551472613 &       0.0007240346 \\\\ 
+  107 &      -0.3551503475 &       0.0007240346 \\\\ 
+  117 &      -0.3552053204 &       0.0007240346 \\\\ 
+  121 &      -0.3563663607 &       0.0007240346 \\\\ 
+  273 &      -0.3563666328 &       0.0007240346 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -1.6304157017 &      -0.0130255648 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.745308
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 33.337227 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-0.51821369  0.12193263]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 0.931621 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000245 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 21 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.089890
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.333863
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 30.101901 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-14.60143271 -10.51668953]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 434.467055 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000177 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 22 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.723573
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.396662
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 28.929383 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-12.65051059  11.85794848]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 441.745830 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000252 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 23 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.814220
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+   37 &      -1.6320354352 &      -0.0006512110 \\\\ 
+   93 &      -1.6325244490 &      -0.0006512110 \\\\ 
+  107 &      -1.6326471614 &      -0.0006512110 \\\\ 
+  119 &      -1.6326747119 &      -0.0003363576 \\\\ 
+  131 &      -1.6327151873 &      -0.0003363576 \\\\ 
+  163 &      -1.6327550659 &      -0.0003363576 \\\\ 
+  221 &      -1.6327561429 &      -0.0003363576 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0055010715 &       0.0010350111 \\\\ 
+   11 &      -0.0146203073 &       0.0010350111 \\\\ 
+   23 &      -0.0195790041 &       0.0010350111 \\\\ 
+   29 &      -0.0241818102 &       0.0010350111 \\\\ 
+   37 &      -0.0249959653 &       0.0010350111 \\\\ 
+   51 &      -0.0250409197 &       0.0010350111 \\\\ 
+   67 &      -0.0250417665 &       0.0010350111 \\\\ 
+   83 &      -0.0250460180 &       0.0016077273 \\\\ 
+   97 &      -0.0250462077 &       0.0016077273 \\\\ 
+  107 &      -0.0250466432 &       0.0016077273 \\\\ 
+  155 &      -0.0250467156 &       0.0016077273 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000066760 &       0.0000809541 \\\\ 
+   11 &      -0.0001816030 &       0.0000809541 \\\\ 
+   23 &      -0.0002138654 &       0.0009797691 \\\\ 
+   37 &      -0.0002386694 &       0.0009797691 \\\\ 
+   61 &      -0.0002400187 &       0.0009797691 \\\\ 
+   83 &      -0.0002404313 &       0.0009797691 \\\\ 
+   97 &      -0.0002405650 &       0.0009797691 \\\\ 
+  107 &      -0.0002706947 &       0.0009797691 \\\\ 
+  113 &      -0.0003173945 &       0.0009797691 \\\\ 
+  117 &      -0.0003998738 &       0.0009797691 \\\\ 
+  123 &      -0.0004105270 &       0.0009797691 \\\\ 
+  127 &      -0.0004168344 &       0.0009797691 \\\\ 
+  133 &      -0.0004170245 &       0.0009797691 \\\\ 
+  149 &      -0.0004172422 &       0.0009797691 \\\\ 
+  159 &      -0.0004173757 &       0.0009797691 \\\\ 
+  177 &      -0.0004173834 &       0.0009797691 \\\\ 
+  309 &      -0.0004173850 &       0.0011901439 \\\\ 
+  397 &      -0.0004173858 &       0.0011901439 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.313338
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 30.192752 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-40.60356653  14.81481481]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 2088.333093 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000180 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 24 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.989934
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 11.774896
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 29.303840 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [41.4266118  12.98582533]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 2053.542466 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000247 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 25 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.860686
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 16.312442
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 33.361046 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-22.43560433  -6.49291267]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 588.144858 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000257 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 26 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.717743
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+    5 &       0.0001109058 &       0.0268284499 \\\\ 
+    7 &      -0.0000724283 &       0.0268284499 \\\\ 
+   23 &      -0.0001243742 &       0.0268284499 \\\\ 
+   39 &      -0.0001501149 &       0.0268284499 \\\\ 
+   71 &      -0.0001507134 &       0.0273060435 \\\\ 
+   79 &      -0.0001516179 &       0.0273060435 \\\\ 
+   95 &      -0.0001518104 &       0.0275894640 \\\\ 
+  107 &      -0.0001520542 &       0.0275894640 \\\\ 
+  121 &      -0.0001536207 &       0.0275894640 \\\\ 
+  133 &      -0.0001546988 &       0.0275894640 \\\\ 
+  153 &      -0.0001548076 &       0.0275894640 \\\\ 
+  161 &      -0.0001551167 &       0.0275894640 \\\\ 
+  175 &      -0.0001551882 &       0.0294924096 \\\\ 
+  187 &      -0.0001552445 &       0.0294924096 \\\\ 
+  205 &      -0.0001552734 &       0.0294924096 \\\\ 
+  217 &      -0.0001552858 &       0.0323531780 \\\\ 
+  231 &      -0.0001552967 &       0.0323531780 \\\\ 
+  261 &      -0.0001553088 &       0.0323531780 \\\\ 
+  291 &      -0.0001553091 &       0.0323531780 \\\\ 
+  357 &      -0.0002371333 &       0.0323531780 \\\\ 
+  365 &      -0.0002930090 &       0.0323531780 \\\\ 
+  381 &      -0.0003066650 &       0.0323531780 \\\\ 
+  399 &      -0.0003090257 &       0.0323531780 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0157058543 &      -0.0000696252 \\\\ 
+   13 &      -0.0182776437 &       0.0000133465 \\\\ 
+   19 &      -0.0186432104 &       0.0000133465 \\\\ 
+   29 &      -0.0192590080 &       0.0000538363 \\\\ 
+   69 &      -0.0192795603 &       0.0000538363 \\\\ 
+   83 &      -0.0192866256 &       0.0000538363 \\\\ 
+  125 &      -0.0192869272 &       0.0000538363 \\\\ 
+  143 &      -0.0192871963 &       0.0000538363 \\\\ 
+  159 &      -0.0192872619 &       0.0000538363 \\\\ 
+  289 &      -0.0192873113 &       0.0000538363 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0013425116 &      -0.0000043477 \\\\ 
+   23 &      -0.0024939235 &       0.0000206168 \\\\ 
+   29 &      -0.0035583384 &       0.0000206168 \\\\ 
+   43 &      -0.0055675061 &       0.0000206168 \\\\ 
+   67 &      -0.0055841763 &       0.0000206168 \\\\ 
+   89 &      -0.0055844637 &       0.0000367415 \\\\ 
+  113 &      -0.0055846761 &       0.0000367415 \\\\ 
+  125 &      -0.0055847241 &       0.0000367415 \\\\ 
+  189 &      -0.0055847306 &       0.0000367415 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.981405
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 31.448989 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [11.67504954 24.14266118]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1303.130071 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000180 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 27 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.105630
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.820715
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 31.881312 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [20.57613169 -4.42005792]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 462.739186 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000178 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 28 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.625753
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.142452
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 28.029757 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [26.21551593  9.81557689]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 881.049363 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000251 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 29 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.720037
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0042495604 &      -0.0000000478 \\\\ 
+   11 &      -0.0130114083 &      -0.0000000478 \\\\ 
+   15 &      -0.0147220072 &      -0.0000000478 \\\\ 
+   23 &      -0.0166485682 &      -0.0000000478 \\\\ 
+   31 &      -0.0166725848 &      -0.0000000478 \\\\ 
+   41 &      -0.0169416816 &      -0.0000000005 \\\\ 
+   55 &      -0.0170015559 &      -0.0000000005 \\\\ 
+   63 &      -0.0171345879 &      -0.0000000005 \\\\ 
+   75 &      -0.0171348537 &      -0.0000000005 \\\\ 
+   83 &      -0.0171420854 &      -0.0000000005 \\\\ 
+   97 &      -0.0171431191 &      -0.0000000005 \\\\ 
+  103 &      -0.0171433744 &      -0.0000000005 \\\\ 
+  125 &      -0.0171436923 &      -0.0000000005 \\\\ 
+  369 &      -0.0171437091 &      -0.0000000005 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0017234485 &      -0.0000000038 \\\\ 
+   13 &      -0.0120169169 &       0.0000000000 \\\\ 
+   27 &      -0.0131210651 &       0.0000000000 \\\\ 
+   41 &      -0.0151931598 &       0.0000000011 \\\\ 
+   57 &      -0.0156368443 &       0.0000000011 \\\\ 
+   63 &      -0.0156461468 &       0.0000000011 \\\\ 
+   75 &      -0.0156705733 &       0.0000000011 \\\\ 
+   85 &      -0.0156788637 &       0.0000000011 \\\\ 
+   97 &      -0.0156859560 &       0.0000000011 \\\\ 
+  225 &      -0.0156860303 &       0.0000000011 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0009614529 &      -0.0000040123 \\\\ 
+   11 &      -0.0127244884 &      -0.0000040123 \\\\ 
+   37 &      -0.0155038992 &      -0.0000005760 \\\\ 
+   51 &      -0.0156723349 &      -0.0000005760 \\\\ 
+   57 &      -0.0159423732 &      -0.0000005760 \\\\ 
+   65 &      -0.0159973950 &      -0.0000000000 \\\\ 
+   85 &      -0.0160068657 &      -0.0000000000 \\\\ 
+   91 &      -0.0160081098 &      -0.0000000000 \\\\ 
+  101 &      -0.0160127528 &      -0.0000000000 \\\\ 
+  141 &      -0.0160129712 &      -0.0000000000 \\\\ 
+  169 &      -0.0160129845 &      -0.0000000000 \\\\ 
+  217 &      -0.0160130359 &      -0.0000000000 \\\\ 
+  231 &      -0.0160130859 &      -0.0000000000 \\\\ 
+  329 &      -0.0160130923 &      -0.0000000000 \\\\ 
+  355 &      -0.0160131036 &      -0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 12.430081
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 26.884239 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [36.39689072 -6.46242951]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1408.851170 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000179 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [-0.51821369  0.12193263] with estimated performance 0.931621
+INFO - robo.solver.bayesian_optimization - Start iteration 30 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.856902
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 15.189744
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 32.493076 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000223 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 31 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.385283
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 15.512094
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 32.074933 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000242 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 32 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 2.287336
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0029042990 &       0.0000000000 \\\\ 
+   13 &      -0.0058646662 &       0.0000000000 \\\\ 
+   27 &      -0.0070723919 &       0.0000000000 \\\\ 
+   33 &      -0.0073932893 &       0.0000000000 \\\\ 
+   51 &      -0.0074282862 &       0.0000000000 \\\\ 
+   59 &      -0.0074298081 &       0.0000000000 \\\\ 
+   79 &      -0.0074303994 &       0.0000000000 \\\\ 
+  109 &      -0.0074309121 &       0.0000000000 \\\\ 
+  125 &      -0.0074309271 &       0.0000000000 \\\\ 
+  229 &      -0.0074309390 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000003228 &       0.0000000000 \\\\ 
+    7 &      -0.0000011279 &       0.0000000000 \\\\ 
+   13 &      -0.0000881370 &       0.0000000000 \\\\ 
+   17 &      -0.0005431958 &       0.0000000000 \\\\ 
+   23 &      -0.0006851468 &       0.0000000000 \\\\ 
+   31 &      -0.0009683350 &       0.0000000000 \\\\ 
+   53 &      -0.0010220624 &       0.0000000000 \\\\ 
+   59 &      -0.0016903678 &       0.0000000000 \\\\ 
+   65 &      -0.0017155268 &       0.0000000000 \\\\ 
+   69 &      -0.0017276620 &       0.0000000000 \\\\ 
+   81 &      -0.0017786788 &       0.0000000000 \\\\ 
+   87 &      -0.0017826059 &       0.0000000000 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 15.657696
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 32.707676 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ 27.6177412 -18.1679622]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1424.063610 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000188 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 33 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.403479
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.470213
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 28.835487 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ 4.38957476 14.29660113]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 429.346157 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000253 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 34 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.970962
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+   97 &      -0.0017867989 &       0.0000000000 \\\\ 
+  103 &      -0.0017870156 &       0.0000000000 \\\\ 
+  117 &      -0.0017871668 &       0.0000000000 \\\\ 
+  161 &      -0.0017871793 &       0.0000000000 \\\\ 
+  191 &      -0.0017871856 &       0.0000000000 \\\\ 
+  367 &      -0.0017871883 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0052504169 &       0.0000000087 \\\\ 
+   13 &      -0.0091043987 &       0.0000000087 \\\\ 
+   27 &      -0.0095140651 &       0.0000000087 \\\\ 
+   41 &      -0.0100626061 &       0.0000000087 \\\\ 
+   59 &      -0.0101377488 &       0.0000000087 \\\\ 
+   79 &      -0.0101483474 &       0.0000000087 \\\\ 
+   83 &      -0.0101570485 &       0.0000000087 \\\\ 
+   95 &      -0.0101586964 &       0.0000000087 \\\\ 
+  105 &      -0.0128701691 &       0.0000000087 \\\\ 
+  109 &      -0.0140034459 &       0.0000000087 \\\\ 
+  115 &      -0.0152320825 &       0.0000000087 \\\\ 
+  133 &      -0.0152702125 &       0.0000000087 \\\\ 
+  141 &      -0.0152745729 &       0.0000000087 \\\\ 
+  149 &      -0.0152854032 &       0.0000000087 \\\\ 
+  185 &      -0.0152854628 &       0.0000000087 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000224553 &       0.0000000013 \\\\ 
+    7 &      -0.0000434868 &       0.0000000013 \\\\ 
+   13 &      -0.0000727754 &       0.0000000013 \\\\ 
+   19 &      -0.0000860424 &       0.0000000013 \\\\ 
+   25 &      -0.0001395815 &       0.0000000013 \\\\ 
+   39 &      -0.0001482448 &       0.0000000013 \\\\ 
+   53 &      -0.0001745493 &       0.0000000013 \\\\ 
+   67 &      -0.0045443196 &       0.0000000013 \\\\ 
+   83 &      -0.0053180195 &       0.0000000013 \\\\ 
+   87 &      -0.0061607648 &       0.0000000013 \\\\ 
+   93 &      -0.0063313475 &       0.0000000013 \\\\ 
+  103 &      -0.0063699876 &       0.0000000013 \\\\ 
+  107 &      -0.0063850949 &       0.0000000013 \\\\ 
+  113 &      -0.0063950843 &       0.0000000013 \\\\ 
+  127 &      -0.0063981824 &       0.0000000013 \\\\ 
+  147 &      -0.0063991893 &       0.0000000013 \\\\ 
+  181 &      -0.0085694191 &       0.0000000013 \\\\ 
+  189 &      -0.0100035848 &       0.0000000013 \\\\ 
+  195 &      -0.0106157392 &       0.0000000013 \\\\ 
+  205 &      -0.0107806387 &       0.0000000013 \\\\ 
+  211 &      -0.0109053071 &       0.0000000013 \\\\ 
+  219 &      -0.0109287824 &       0.0000000013 \\\\ 
+  229 &      -0.0109297061 &       0.0000000013 \\\\ 
+  245 &      -0.0109387463 &       0.0000000013 \\\\ 
+  257 &      -0.0109433837 &       0.0000000013 \\\\ 
+  275 &      -0.0109458348 &       0.0000000013 \\\\ 
+  293 &      -0.0109459025 &       0.0000000013 \\\\ 
+  307 &      -0.0109466534 &       0.0000000013 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.718792
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 31.522523 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [ 11.11619164 -10.86216532]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 360.444615 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000180 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 35 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.188387
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.678619
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 29.313927 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000260 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 36 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.151004
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.285457
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 30.092180 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-19.29583905   2.89590002]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 389.416564 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000181 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 37 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.024306
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.810745
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 29.450324 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000233 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 38 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.228664
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+  327 &      -0.0109467200 &       0.0000000013 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000204669 &       0.0000000003 \\\\ 
+   13 &      -0.0000826835 &       0.0000000003 \\\\ 
+   27 &      -0.0001403152 &       0.0000000003 \\\\ 
+   33 &      -0.0001939948 &       0.0000000003 \\\\ 
+   41 &      -0.0003964494 &       0.0000000003 \\\\ 
+   47 &      -0.0006767477 &       0.0000000003 \\\\ 
+   61 &      -0.0010188535 &       0.0000000003 \\\\ 
+   67 &      -0.0153328592 &       0.0000000003 \\\\ 
+   83 &      -0.0170464248 &       0.0000000003 \\\\ 
+   87 &      -0.0176946743 &       0.0000000003 \\\\ 
+   93 &      -0.0177017360 &       0.0000000003 \\\\ 
+  103 &      -0.0177588595 &       0.0000000003 \\\\ 
+  111 &      -0.0177730387 &       0.0000000003 \\\\ 
+  123 &      -0.0177795076 &       0.0000000003 \\\\ 
+  129 &      -0.0177816296 &       0.0000000003 \\\\ 
+  143 &      -0.0177821803 &       0.0000000003 \\\\ 
+  149 &      -0.0177823991 &       0.0000000003 \\\\ 
+  167 &      -0.0177829348 &       0.0000000003 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.909775
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 31.246705 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-37.92104862  -6.55387898]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 1524.080112 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000242 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 39 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.187913
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.241202
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 28.866695 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-2.92638317 14.08321902]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 405.967979 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000187 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 40 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.106277
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.925073
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 29.884485 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000323 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 41 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.775467
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+    5 &      -0.0030717080 &       0.0220629266 \\\\ 
+   13 &      -0.0053673605 &       0.0220629266 \\\\ 
+   27 &      -0.0059069154 &       0.0220629266 \\\\ 
+   33 &      -0.0062236585 &       0.0220629266 \\\\ 
+   51 &      -0.0062428303 &       0.0220629266 \\\\ 
+   59 &      -0.0062500564 &       0.0220629266 \\\\ 
+  103 &      -0.0062501161 &       0.0220629266 \\\\ 
+  361 &      -0.0062501411 &       0.0220629266 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000000001 &       0.0000000000 \\\\ 
+   13 &      -0.0000000019 &       0.0000000000 \\\\ 
+   27 &      -0.0000000029 &       0.0000000000 \\\\ 
+   43 &      -0.0000000035 &       0.0000000000 \\\\ 
+   49 &      -0.0000000037 &       0.0000000000 \\\\ 
+   61 &      -0.0000000038 &       0.0000000000 \\\\ 
+   67 &      -0.0000000454 &       0.0000000000 \\\\ 
+   75 &      -0.0000000938 &       0.0000000000 \\\\ 
+   85 &      -0.0000000947 &       0.0000000000 \\\\ 
+   99 &      -0.0000000950 &       0.0000000000 \\\\ 
+  105 &      -0.0000000950 &       0.0000000000 \\\\ 
+  117 &      -0.0000000950 &       0.0000000000 \\\\ 
+  167 &      -0.0000000950 &       0.0000000000 \\\\ 
+  181 &      -0.0000000951 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0001692820 &       0.0000000000 \\\\ 
+   13 &      -0.0003419364 &       0.0000000000 \\\\ 
+   19 &      -0.0009565448 &       0.0000000000 \\\\ 
+   27 &      -0.0011885418 &       0.0000000000 \\\\ 
+   33 &      -0.0129381903 &       0.0000000000 \\\\ 
+   47 &      -0.0146081895 &       0.0000000000 \\\\ 
+   65 &      -0.0150581296 &       0.0000000000 \\\\ 
+   81 &      -0.0151053210 &       0.0000000000 \\\\ 
+   89 &      -0.0151322635 &       0.0000000000 \\\\ 
+   97 &      -0.0151344166 &       0.0000000000 \\\\ 
+  107 &      -0.0151355163 &       0.0000000000 \\\\ 
+  121 &      -0.0151363528 &       0.0000000000 \\\\ 
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.449216
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 30.551161 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [-6.34049688 20.45419906]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of 877.614178 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000180 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 42 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.311286
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 14.363704
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 31.012614 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000169 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 43 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.228844
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 15.165550
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 30.242260 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000231 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 44 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.044619
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.160792
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 28.547646 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000169 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 45 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.134535
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 13.047588
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 29.365647 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0. 0.]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.000000 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000247 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0. 0.] with estimated performance -0.000000
+INFO - robo.solver.bayesian_optimization - Start iteration 46 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 1.014146
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+  169 &      -0.0151364702 &       0.0000000000 \\\\ 
+  195 &      -0.0151367371 &       0.0000000000 \\\\ 
+  231 &      -0.0151369885 &       0.0000000000 \\\\ 
+  255 &      -0.0151370204 &       0.0000000000 \\\\ 
+  329 &      -0.0151372181 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &      -0.0000000000 &      -0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000
+---------------------------------------------------------------------------
+    5 &       0.0000000000 &       0.0000000000 \\\\ 
+DIRECT stopped: numfunc >= maxf.
+DIRECT Version 2.0.4
+ Problem Dimension n                    :      2
+ Eps value                              :   0.1000E-03
+ Epsilon is constant.
+ Maximum number of f-evaluations (maxf) :    400
+ Maximum number of iterations (MaxT)    :    200
+ Value of f_global                      :  -0.1000+101
+ Global percentage wanted               :   0.1000E-01
+ Volume percentage wanted               :  -0.1000E+01
+ Measure percentage wanted              :  -0.1000E+01
+ Jones original DIRECT algorithm is used.
+Bounds on variable x 1    :   -100.00000 <= xi <=    100.00000
+Bounds on variable x 2    :   -100.00000 <= xi <=    100.00000

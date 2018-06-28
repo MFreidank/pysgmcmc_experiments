@@ -1,0 +1,1989 @@
+INFO - hpolib - Running command 'optimize_function'
+INFO - hpolib - Started run with ID "506"
+INFO - robo.solver.bayesian_optimization - Evaluate: [0.96738397 0.17436774 0.56187407 0.85200581 0.17253223 0.83501481]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.137782 in 0.000358 seconds
+INFO - robo.solver.bayesian_optimization - Evaluate: [0.24675801 0.59560486 0.55982113 0.13000963 0.75857554 0.13531709]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.221759 in 0.000295 seconds
+INFO - robo.solver.bayesian_optimization - Start iteration 2 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.000662
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.218576
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.219868 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.99034329 0.88157597 0.56664331 0.04043201 0.7025964  0.26800876]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.001088 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24675801 0.59560486 0.55982113 0.13000963 0.75857554 0.13531709] with estimated performance -0.221759
+INFO - robo.solver.bayesian_optimization - Start iteration 3 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.001037
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.202959
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.204418 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29918969 0.63800977 0.54835013 0.11195056 0.7701347  0.64527017]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.388754 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29918969 0.63800977 0.54835013 0.11195056 0.7701347  0.64527017] with estimated performance -0.388754
+INFO - robo.solver.bayesian_optimization - Start iteration 4 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.001748
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.202385
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.204556 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.3333437  0.74028126 0.51019348 0.         0.86432163 0.55055964]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.241400 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29918969 0.63800977 0.54835013 0.11195056 0.7701347  0.64527017] with estimated performance -0.388754
+INFO - robo.solver.bayesian_optimization - Start iteration 5 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.002260
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.202720
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.205397 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29605035 0.67676744 0.51893521 0.1206695  0.71519923 0.63235153]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.365270 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000300 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29918969 0.63800977 0.54835013 0.11195056 0.7701347  0.64527017] with estimated performance -0.388754
+INFO - robo.solver.bayesian_optimization - Start iteration 6 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.002816
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203787
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.207016 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.452839 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 7 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.003631
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.202593
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.206644 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.23666176 0.87014126 0.53645861 0.02671289 0.452699   0.75903336]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.278337 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000301 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 8 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.004293
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203263
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.207976 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26196716 0.67964399 0.71062215 0.04324132 0.60844135 0.75181808]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.311678 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 9 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.004708
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203408
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.208539 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.44818768 0.64328419 0.61810328 0.01601486 0.67370923 0.6709958 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.210634 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000319 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 10 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.005639
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203862
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.209935 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.60966585 0.66636509 0.49902665 0.10386753 0.56713239 0.22522549]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.118320 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 11 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.005785
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203656
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.209866 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.30832069 0.60473334 0.49687117 0.         0.67242063 0.67037991]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.415661 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.26304689 0.66779087 0.5411761  0.02865468 0.63273513 0.64944503] with estimated performance -0.452839
+INFO - robo.solver.bayesian_optimization - Start iteration 12 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.006800
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.215899
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.223120 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22006416 0.6427294  0.44064613 0.03061382 0.4697242  0.66813451]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.693252 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22006416 0.6427294  0.44064613 0.03061382 0.4697242  0.66813451] with estimated performance -0.693252
+INFO - robo.solver.bayesian_optimization - Start iteration 13 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.007276
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.236314
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.244022 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.14645564 0.6364935  0.31104508 0.03415693 0.52379036 0.54032334]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.413356 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000300 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22006416 0.6427294  0.44064613 0.03061382 0.4697242  0.66813451] with estimated performance -0.693252
+INFO - robo.solver.bayesian_optimization - Start iteration 14 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.007711
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204901
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.213053 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.10837984 0.90221592 0.07297989 0.87748376 0.27659914 0.01584823]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.274670 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22006416 0.6427294  0.44064613 0.03061382 0.4697242  0.66813451] with estimated performance -0.693252
+INFO - robo.solver.bayesian_optimization - Start iteration 15 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.008268
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.203319
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.212071 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.34156491 0.6045879  0.366661   0.         0.43210332 0.66445929]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.603424 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22006416 0.6427294  0.44064613 0.03061382 0.4697242  0.66813451] with estimated performance -0.693252
+INFO - robo.solver.bayesian_optimization - Start iteration 16 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.008798
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206353
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.215831 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.877834 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000404 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 17 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.009237
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205927
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.215593 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.75145885 0.02371818 0.08715327 0.55150884 0.16079589 0.47028291]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.294987 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 18 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.010487
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205035
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.215950 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.30233667 0.04972256 0.12786855 0.23258229 0.19930369 0.82352813]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.736077 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 19 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.010764
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204606
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.215796 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.49508377 0.02717311 0.19639504 0.27757558 0.19906083 0.81924498]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.535746 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 20 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.011692
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204262
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.216380 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.44303555 0.05443295 0.         0.11408715 0.32112388 0.79316751]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.336426 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 21 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.012280
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204677
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.217386 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.32596971 0.04379306 0.16922459 0.13950254 0.20199198 0.68544143]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.803121 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 22 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.012776
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204170
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.217376 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.34435677 0.         0.20762038 0.15509658 0.20800147 0.6938618 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.873535 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 23 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.013555
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.221540
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.235534 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.25994868 0.         0.15047203 0.1418739  0.15841442 0.72149704]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.437156 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000305 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.33214638 0.0366449  0.15685337 0.1850556  0.2005875  0.74533671] with estimated performance -1.877834
+INFO - robo.solver.bayesian_optimization - Start iteration 24 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.013637
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204876
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.218939 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29281056 0.         0.20306631 0.21635096 0.20437614 0.62607268]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.137321 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29281056 0.         0.20306631 0.21635096 0.20437614 0.62607268] with estimated performance -2.137321
+INFO - robo.solver.bayesian_optimization - Start iteration 25 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.014875
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204418
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.219736 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.357089 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353] with estimated performance -2.357089
+INFO - robo.solver.bayesian_optimization - Start iteration 26 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.015615
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205052
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.221128 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.07687111 0.04275117 0.28222787 0.33715006 0.2965131  0.51271329]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.260859 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353] with estimated performance -2.357089
+INFO - robo.solver.bayesian_optimization - Start iteration 27 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.016269
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204813
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.221543 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.11180364 0.         0.19080492 0.23901003 0.40621749 0.45250765]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.504188 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353] with estimated performance -2.357089
+INFO - robo.solver.bayesian_optimization - Start iteration 28 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.016258
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204931
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.221621 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.08215007 0.         0.3217334  0.21596958 0.24901073 0.53602682]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.212247 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353] with estimated performance -2.357089
+INFO - robo.solver.bayesian_optimization - Start iteration 29 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.017218
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205178
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.222823 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.08501943 0.03074514 0.20201619 0.32698612 0.16075421 0.49962523]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.468890 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22065957 0.02282443 0.17615013 0.20032193 0.28925256 0.57075353] with estimated performance -2.357089
+INFO - robo.solver.bayesian_optimization - Start iteration 30 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.017920
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.301337
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.319685 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.774236 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000322 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 31 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.018419
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.329750
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.360655 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28737908 0.10822167 0.23860321 0.10584216 0.39912866 0.66607449]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.878151 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 32 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.031493
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204582
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.236524 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22322776 0.10680676 0.21172744 0.28895006 0.36120675 0.63018746]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.768713 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 33 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.020072
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204494
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.225005 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.34467138 0.13100922 0.24262472 0.29184609 0.33133491 0.58642104]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.722850 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 34 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.020391
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204808
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.225701 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.25285693 0.10805737 0.42841921 0.90296708 0.40626543 0.53413028]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.079216 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 35 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.020631
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.224938
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.246088 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.31916166 0.14244457 0.26847042 0.37274693 0.34324985 0.64275903]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.695458 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000320 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 36 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.022286
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.415089
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.459393 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22939345 0.14367714 0.27494933 0.33347929 0.42883074 0.51992271]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.012632 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.24366006 0.07740872 0.21338794 0.22509255 0.32739253 0.64428405] with estimated performance -2.774236
+INFO - robo.solver.bayesian_optimization - Start iteration 37 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.043507
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.319155
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.373900 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29903573 0.12198632 0.31157639 0.29833253 0.3630764  0.7281762 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.814032 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29903573 0.12198632 0.31157639 0.29833253 0.3630764  0.7281762 ] with estimated performance -2.814032
+INFO - robo.solver.bayesian_optimization - Start iteration 38 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.030296
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.230303
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.261058 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.13604503 0.10390403 0.33873916 0.2818374  0.38346264 0.76448403]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.598131 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000296 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.29903573 0.12198632 0.31157639 0.29833253 0.3630764  0.7281762 ] with estimated performance -2.814032
+INFO - robo.solver.bayesian_optimization - Start iteration 39 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.024272
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204871
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.229622 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.32559203 0.03794099 0.35071332 0.30264849 0.28906725 0.6635361 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.932026 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.32559203 0.03794099 0.35071332 0.30264849 0.28906725 0.6635361 ] with estimated performance -2.932026
+INFO - robo.solver.bayesian_optimization - Start iteration 40 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.024518
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204398
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.229330 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.052690 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000300 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 41 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.024908
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204695
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.229999 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.34957676 0.08774828 0.59054951 0.34195836 0.27062742 0.797644  ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.381443 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000306 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 42 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.025283
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204858
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.230556 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28165633 0.1480191  0.37857843 0.50316974 0.28728526 0.58086691]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.886577 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000317 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 43 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.026489
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204822
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.231764 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19791268 0.11526085 0.55515517 0.51858544 0.2839715  0.66684144]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.866714 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 44 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.026766
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208185
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.235481 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26989733 0.15825771 0.60968483 0.20153737 0.32081381 0.61994637]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.893730 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 45 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.028339
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205331
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.234187 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.1096337  0.02282158 0.58411724 0.4291837  0.18154212 0.64534151]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.821184 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000321 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 46 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.028103
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204856
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.233520 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.46371256 0.15678067 0.48886829 0.30332934 0.14046827 0.64014403]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.671609 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 47 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.028198
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205450
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.234186 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.3350595  0.11714784 0.37373026 0.49605527 0.25577582 0.58874381]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.821447 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 48 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.029916
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205388
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.235822 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.34903341 0.16019408 0.47624612 0.29491107 0.31070562 0.62063369]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.033466 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.27178241 0.10910457 0.45499588 0.34337608 0.27390279 0.64360662] with estimated performance -3.052690
+INFO - robo.solver.bayesian_optimization - Start iteration 49 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.030572
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208078
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.239171 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.0594743  0.16024174 0.50239636 0.25468197 0.31837609 0.64693988]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.058078 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.0594743  0.16024174 0.50239636 0.25468197 0.31837609 0.64693988] with estimated performance -3.058078
+INFO - robo.solver.bayesian_optimization - Start iteration 50 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.031117
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205462
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.237139 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.101719 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 51 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.032024
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.213154
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.245719 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19058165 0.16629008 0.48160067 0.29065886 0.29385148 0.54728592]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.994754 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 52 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.031468
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205159
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.237163 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.16292132 0.17037425 0.43265088 0.4337249  0.31606263 0.57161359]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.459519 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 53 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.032687
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205642
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.238837 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.         0.13634691 0.45843933 0.52833903 0.30302909 0.67573345]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.573957 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 54 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.033421
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205734
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.239706 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.         0.21849903 0.57980215 0.2327343  0.31693447 0.63562632]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.665102 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 55 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.034206
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206804
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.241562 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17336333 0.18675169 0.60558561 0.29443458 0.34047808 0.61717152]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.036652 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 56 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.034606
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205135
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.240245 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.13008705 0.18614922 0.71606598 0.36090519 0.31267045 0.63006522]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.488194 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 57 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.035255
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206194
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.241951 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.24344981 0.32272252 0.6990501  0.31946554 0.30295297 0.71958936]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.543762 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 58 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.035979
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207768
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.244298 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.91135005 0.1407847  0.61778798 0.08622427 0.35066236 0.65901155]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.464170 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 59 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.037653
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206055
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.244251 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.16257161 0.27638343 0.46547911 0.26502058 0.36603851 0.64965764]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.992270 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000324 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 60 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.037586
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205502
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.243638 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29303199 0.42609108 0.51925307 0.23744639 0.32715639 0.69526481]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.410297 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 61 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.038603
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206147
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.245293 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.12754019 0.19266131 0.55609259 0.30591465 0.52820304 0.66044028]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.759761 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 62 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.038959
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205392
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.244865 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.01310334 0.19312828 0.34699756 0.09312008 0.38024872 0.20600801]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.383935 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 63 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.039898
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205970
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.246412 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17006474 0.12077567 0.75802901 0.29576224 0.37135075 0.63818813]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.355877 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 64 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.041755
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.227736
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.281366 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.20977132 0.20357789 0.48774218 0.25054739 0.36579532 0.55528185]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.901810 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 65 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.040999
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206312
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.247855 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.18890863 0.51791253 0.60296976 0.35031583 0.34211283 0.47260364]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.439186 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 66 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.042339
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205706
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.248594 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.85066782 0.29978049 0.43504738 0.31086705 0.27301325 0.59237613]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.826996 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 67 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.042526
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205720
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.248797 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.16780109 0.28785882 0.54298012 0.18662522 0.34941587 0.63966524]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.834043 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 68 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.042889
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206029
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.249469 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.18973659 0.19253136 0.46094984 0.27569908 0.35080149 0.51732087]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.769154 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 69 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.044655
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206363
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.251557 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.24572062 0.21986806 0.44096081 0.18465789 0.37581689 0.5874703 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.723325 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 70 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.045528
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205705
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.251795 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2166708  0.386302   0.55296199 0.27317302 0.34479759 0.54691091]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.418017 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 71 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.044888
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205725
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.251153 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.14222591 0.20369881 0.55798735 0.12394415 0.2856339  0.58426914]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.528009 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 72 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.045982
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205440
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.251962 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26410986 0.17761771 0.53090726 0.30943227 0.38496869 0.58570806]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.838796 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 73 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.045962
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205683
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.252164 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.09408621 0.25578036 0.58360455 0.30298236 0.38888677 0.64468154]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.707467 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 74 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.047354
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205544
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.253414 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.24285105 0.26739309 0.53649889 0.37253719 0.3777612  0.51645955]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.290495 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000320 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 75 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.047798
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206203
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.254549 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.06971955 0.17851838 0.54841339 0.22991168 0.40683709 0.69689731]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.642576 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 76 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.049333
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205799
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.255661 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.31975932 0.15228565 0.52994155 0.13277353 0.29801843 0.50643816]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.174342 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 77 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.049238
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205867
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.255623 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.21734129 0.09226727 0.37263983 0.32731765 0.38091811 0.65211726]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.893547 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 78 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.050322
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205469
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.256303 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29768329 0.28402833 0.46050435 0.35285738 0.31159834 0.60423052]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.799210 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 79 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.050797
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205873
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.257182 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17830731 0.16913313 0.46741194 0.36039877 0.3102561  0.69392582]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.069945 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 80 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.052285
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205813
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.258615 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.84558047 0.0296207  0.42787654 0.35331328 0.36308808 0.75013122]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.796195 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000296 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 81 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.051270
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205827
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.257621 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17051694 0.76586717 0.49460011 0.32334764 0.34458735 0.95108825]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.454805 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000322 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 82 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.052904
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205935
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.259372 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.06258527 0.19257443 0.47404459 0.05120451 0.37824722 0.70082245]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.919603 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 83 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.054119
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207201
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.262140 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19118032 0.1217471  0.42279684 0.40818891 0.30316554 0.55465572]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.573981 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000423 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 84 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.052789
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.209376
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.262744 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.31394077 0.25201862 0.53251357 0.32433001 0.27144093 0.63414119]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.885442 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000321 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 85 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.054291
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206451
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.261292 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17189202 0.07321546 0.49184858 0.28335016 0.45504908 0.61814194]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.426097 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 86 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.055423
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204775
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.260707 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.11487312 0.21506564 0.35740776 0.13077026 0.3744371  0.66192311]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.354462 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 87 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.057165
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206249
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.263937 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.00755759 0.2514674  0.61614837 0.3518564  0.27362853 0.65581183]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.437584 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 88 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.056775
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205308
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.262562 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.12006717 0.24387483 0.55996946 0.11085078 0.34329944 0.59127587]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.416686 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 89 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.057682
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206262
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.264412 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.02349311 0.25028331 0.38467222 0.3206011  0.29145059 0.5263529 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.357623 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 90 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.056955
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205705
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.263134 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.32209748 0.05255289 0.47392431 0.41836133 0.36289404 0.7124097 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.383205 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000295 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 91 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.058989
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205719
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.265126 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.31847914 0.15928409 0.4467661  0.21684412 0.50837732 0.68707891]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.740143 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 92 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.059578
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206028
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.266020 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.1082671  0.14921736 0.5392183  0.26838066 0.32198224 0.76776998]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.891439 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000317 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 93 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.059379
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206180
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.266016 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.23531273 0.01441308 0.58365552 0.41409714 0.37614416 0.57961948]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.239906 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 94 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.061123
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205805
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.267359 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.00851609 0.1571664  0.47790433 0.20296835 0.30186335 0.79471031]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.366834 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 95 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.062407
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205867
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.268720 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.0901803  0.25096201 0.43516367 0.27148738 0.30897439 0.70702371]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.980398 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 96 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.062222
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207015
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.269721 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.04910821 0.11568892 0.43897007 0.32966306 0.28953367 0.65040232]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.912432 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000319 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.15695925 0.16950671 0.53805093 0.34388959 0.29536728 0.64908597] with estimated performance -3.101719
+INFO - robo.solver.bayesian_optimization - Start iteration 97 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.063245
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206791
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.270497 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.223284 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 98 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.063754
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205652
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.269845 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33624768 0.12717995 0.4637697  0.34251807 0.30522229 0.53425212]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.647720 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 99 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.065925
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206419
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.272843 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29046243 0.01002752 0.41648636 0.33405411 0.29337228 0.66705099]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.917037 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000293 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 100 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.065184
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205920
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.271528 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28184003 0.0844845  0.39808451 0.3495757  0.31332446 0.66468833]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.029976 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000301 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 101 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.065768
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207790
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.274041 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.41863704 0.21133706 0.43603393 0.34288745 0.31475375 0.68644765]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.693688 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 102 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.066940
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207280
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.274643 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.21739294 0.02646885 0.37715247 0.32776604 0.30034483 0.74937605]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.832592 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000295 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 103 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.066743
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208548
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.275733 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33959274 0.10615363 0.42591835 0.31726879 0.32985468 0.58834966]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.906033 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 104 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.068893
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208177
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.277598 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.43152698 0.08116186 0.34430141 0.29636342 0.28075257 0.74417673]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.549048 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000335 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 105 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.069490
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207386
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.277447 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19839941 0.34554448 0.4328276  0.39157295 0.29365831 0.59450924]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.469847 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000321 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 106 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.070362
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206790
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.277683 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.20239956 0.29086954 0.46167572 0.30318303 0.28678119 0.66334285]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.052352 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 107 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.071007
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207897
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.279440 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.20941342 0.26940395 0.68493992 0.05127922 0.36335131 0.59535057]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.730945 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 108 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.070646
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208677
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.279805 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29552437 0.         0.41963622 0.26586756 0.41332752 0.53386649]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.236569 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 109 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.071752
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208835
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.281037 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.30581147 0.49849007 0.89776596 0.18661621 0.37199616 0.96880342]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.037613 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 110 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.073267
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206413
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.280120 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.42998695 0.         0.43891467 0.35428897 0.29030942 0.64821611]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.455392 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 111 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.073843
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208746
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.283064 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33697431 0.1277185  0.34599972 0.30441611 0.27307756 0.66781173]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.977175 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 112 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.075415
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208534
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.284396 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19669868 0.0886732  0.38597858 0.27090233 0.25868748 0.78637895]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.716967 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000305 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 113 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.075519
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.209298
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.285291 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.08729297 0.13001282 0.45894286 0.3001     0.27017344 0.63682837]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.043548 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000318 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 114 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.076829
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208836
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.286209 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26814733 0.         0.40880893 0.31400636 0.31729436 0.70292548]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.927865 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 115 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.076637
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.210347
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.287438 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17033152 0.02887483 0.46568021 0.26992318 0.30184354 0.81461731]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.581065 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 116 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.076234
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208970
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.285726 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.42442869 0.11380602 0.28337897 0.26564115 0.33026033 0.67263738]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.677053 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 117 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.077619
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.209555
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.287721 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.05277146 0.21542901 0.46174146 0.35591408 0.386948   0.64316204]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.597560 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000327 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 118 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.079711
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208699
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.288949 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26831361 0.24348358 0.1380451  0.24719174 0.2901487  0.64228621]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.629045 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000325 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 119 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.079260
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207512
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.287221 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17700139 0.07879104 0.49471181 0.29668049 0.2593822  0.61296784]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.061051 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000305 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 120 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.081245
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.211319
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.293063 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.04228339 0.22807541 0.48342194 0.30376673 0.25566233 0.67779273]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.788191 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 121 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.081172
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.213513
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.295117 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33641865 0.22791939 0.44533405 0.31278608 0.38172238 0.60987764]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.730983 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 122 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.080812
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.220295
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.301555 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.43542967 0.17504802 0.53084941 0.2738897  0.29169143 0.67440894]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.699599 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000420 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 123 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.083311
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207356
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.291123 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.12896704 0.13474421 0.52253096 0.33879475 0.27445321 0.82092   ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.495458 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000308 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 124 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.083703
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.227333
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.311533 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28673317 0.04978885 0.33369485 0.28963479 0.25639988 0.68123512]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.896002 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 125 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.083187
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208931
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.292606 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.20608559 0.43400735 0.23240001 0.24635826 0.31443417 0.75301283]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.065821 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 126 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.085025
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.372684
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.471238 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.05490066 0.11214456 0.4285657  0.2942631  0.36467162 0.70548317]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.830145 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 127 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.085146
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206444
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.292115 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28189156 0.08240647 0.46757781 0.32795231 0.25505284 0.59516452]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.887035 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 128 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.085279
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.214324
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.300085 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.43791889 0.05777006 0.51232992 0.2036825  0.35596419 0.68033924]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.408677 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 129 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.086534
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205590
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.292602 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.36036289 0.20686561 0.40798141 0.2564652  0.25307533 0.52945361]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.478002 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 130 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.086024
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206188
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.292694 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19730432 0.12534616 0.39748793 0.2629251  0.2427535  0.6365288 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.024194 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000321 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 131 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.090008
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208662
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.299190 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.21352165 0.29752772 0.41394065 0.30408878 0.36074393 0.65683474]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.910047 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 132 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.156939
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.280145
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.437604 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19051702 0.11124747 0.50155994 0.30606406 0.36361404 0.62124714]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.113449 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 133 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.089584
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.352261
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.442374 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.18491879 0.17540623 0.43822715 0.33177518 0.18467084 0.5853447 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.408965 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 134 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.098507
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205452
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.304468 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22365032 0.05842052 0.45071541 0.27872827 0.21664246 0.64502588]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.806683 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 135 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.089240
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206434
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.296179 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.11591336 0.12086715 0.46232418 0.29480345 0.13711328 0.68603418]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.014470 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 136 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.090287
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206160
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.296962 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.21289631 0.0768188  0.24278146 0.32944367 0.2321505  0.64526502]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.652260 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 137 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.091988
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206630
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.299203 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.37650115 0.29404624 0.48973889 0.24962614 0.31739519 0.24905728]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.760960 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 138 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.092350
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205632
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.298512 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2013351  0.05180384 0.42621002 0.33308431 0.27741927 0.82801732]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.438532 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 139 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.091923
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.210333
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.302765 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22159423 0.33721532 0.56100212 0.29475185 0.27194863 0.6554276 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.815137 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 140 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.094949
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206659
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.302542 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.07907379 0.0090449  0.16647121 0.31755063 0.28167503 0.61628329]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.406236 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000401 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 141 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.095412
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.289467
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.385376 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.30695886 0.06026045 0.42268501 0.46819019 0.3917198  0.55436056]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.828712 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 142 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.094673
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206705
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.301878 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.11781923 0.51143076 0.48920327 0.35062457 0.29332858 0.7031391 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.928342 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 143 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.096103
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207117
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.303709 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.18738481 0.20930835 0.37971994 0.30052409 0.30191707 0.88440554]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.138647 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 144 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.097933
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206564
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.304997 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.196824   0.19175609 0.43500138 0.26446408 0.22021121 0.6898405 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.872026 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 145 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.098356
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.214276
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.313127 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.37235795 0.17509226 0.50446743 0.25752056 0.24143229 0.61477711]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.715060 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 146 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.099235
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206455
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.306192 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26602281 0.1553561  0.42247634 0.2511664  0.23830172 0.50538809]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.477464 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 147 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.098983
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.254831
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.367706 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2045152  0.0904871  0.5962334  0.31611493 0.34517801 0.72679761]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.919384 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 148 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.100172
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206020
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.306712 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19470818 0.15617396 0.42943292 0.36341486 0.25986801 0.69571041]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.936307 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000320 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 149 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.100491
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206700
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.307704 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.15738763 0.         0.39473492 0.29416103 0.36874152 0.64358604]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.836485 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 150 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.100801
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.226302
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.327620 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.15505329 0.         0.50615021 0.38568396 0.36812248 0.53764453]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.326695 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000306 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 151 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.103692
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.361866
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.466075 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.11761782 0.12792964 0.54070034 0.27141021 0.20694181 0.64807932]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.704426 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000327 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 152 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.102382
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.214706
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.317583 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.35103954 0.3464454  0.42039699 0.31643643 0.31329061 0.72111269]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.575817 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000299 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 153 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.103657
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206417
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.310560 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.23783555 0.06784306 0.2797372  0.3544071  0.26153714 0.68308388]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.777713 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 154 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.104528
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206063
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.311052 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.26692502 0.11360856 0.48229736 0.3532935  0.30084373 0.66721527]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.080920 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 155 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.104986
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206085
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.311549 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.25377318 0.22555388 0.49808983 0.23400753 0.29611721 0.65279117]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.159121 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 156 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.106444
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206239
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.313203 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.3780421  0.20156897 0.55510205 0.3888018  0.28311646 0.57234946]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.390117 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 157 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.106537
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205786
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.312811 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2277258  0.09784761 0.34385416 0.35548863 0.2726024  0.59064934]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.837389 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 158 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.107814
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205620
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.313875 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28458152 0.03582639 0.49366794 0.26354773 0.26592233 0.4289574 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.980538 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 159 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.108199
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206495
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.315222 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.18697606 0.02904577 0.49601086 0.28183931 0.3234118  0.64798478]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.144591 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 160 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.107679
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.204773
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.312912 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.09693527 0.119783   0.27178793 0.43609051 0.3834485  0.67824003]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.108383 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000317 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 161 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.110003
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.212899
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.323422 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.37225911 0.26694559 0.66869444 0.25451419 0.35247295 0.64341336]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.452012 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 162 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.115307
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206395
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.322242 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.13037126 0.20900864 0.43002287 0.26617442 0.30686052 0.50921282]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.684983 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 163 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.198309
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.231977
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.430807 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.25156685 0.04454922 0.54769542 0.26069613 0.31868835 0.64478678]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.098820 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 164 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.115226
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.365802
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.492480 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.33956276 0.         0.32995368 0.22196718 0.40687444 0.65975302]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.309645 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 165 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.140892
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.226055
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.367452 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17851654 0.00877869 0.44957706 0.2496048  0.29749399 0.69452293]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.028022 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 166 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.155350
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.256938
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.421635 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.4434461  0.         0.47731239 0.31718522 0.26665534 0.66046378]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.434054 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 167 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.113693
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.210954
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.325153 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22679732 0.13296023 0.52873223 0.3714955  0.30119348 0.66419277]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.010188 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 168 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.188114
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205794
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.394404 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.00187534 0.1378827  0.33411248 0.23473116 0.32769632 0.69618627]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.617462 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 169 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.115138
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207277
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.322860 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29411605 0.17220595 0.53598652 0.12987212 0.34880393 0.66638316]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.591520 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 170 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.115552
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.360709
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.476818 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.08352876 0.10126543 0.34359358 0.23045034 0.26145746 0.71771301]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.741818 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 171 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.227832
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.446731
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.687563 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.1882755  0.02951719 0.56733145 0.20565874 0.35689661 0.74383813]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.702525 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 172 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.127389
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206407
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.334319 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17431868 0.0965398  0.6027558  0.16399822 0.31498996 0.66687412]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.812089 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 173 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.118708
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206820
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.326046 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22785442 0.10325613 0.49760582 0.22569393 0.35453258 0.48287591]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.485352 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000323 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 174 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.120013
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205931
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.326444 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.27314299 0.21427524 0.39267178 0.20561512 0.21083562 0.66954415]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.584501 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000303 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 175 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.119855
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206050
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.326453 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.13197332 0.10174111 0.55392172 0.07476262 0.35398176 0.63506213]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.290629 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000323 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 176 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.218328
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.214688
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.433521 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.00412274 0.13666719 0.40171376 0.11936745 0.30053429 0.5408463 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.023255 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 177 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.134162
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.287683
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.422369 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.17463142 0.11461419 0.54533078 0.37131158 0.31950885 0.64782156]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.977602 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000321 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 178 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.125960
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208632
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.335417 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.04973683 0.         0.42574719 0.18994781 0.27187731 0.61745061]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.519269 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 179 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.122720
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205403
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.328675 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.38667062 0.17999646 0.3575613  0.31018665 0.29850051 0.65719921]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.889307 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000310 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 180 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.121788
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.256499
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.389426 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.4044521  0.38420859 0.60097346 0.79921399 0.69205748 0.98340008]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.046721 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000307 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 181 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.195537
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.207228
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.403287 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.         0.04529261 0.50546059 0.2841838  0.31756183 0.59666078]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.650383 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 182 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.133969
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.223450
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.372293 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22968841 0.32211863 0.39035089 0.3279707  0.357254   0.66537496]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.767816 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 183 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.207042
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.208832
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.416390 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.16184322 0.33741195 0.43241917 0.32846094 0.27903884 0.65352907]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.790893 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000315 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 184 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.126082
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.252240
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.378835 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.24513123 0.36366816 0.836958   0.1401219  0.21759171 0.66397196]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -1.516351 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 185 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.190735
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.342296
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.533566 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.37039119 0.39729772 0.26204523 0.35759123 0.29897685 0.69556215]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.161906 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 186 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.131079
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.210201
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.341803 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2376017  0.2143463  0.48940935 0.21295964 0.30862895 0.68929469]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -3.122297 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000320 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 187 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.130650
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206893
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.338064 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.01263198 0.02279353 0.38801585 0.15701283 0.34385026 0.68215271]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.297195 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 188 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.129310
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206992
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.336852 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.29770264 0.03764466 0.52777405 0.20146555 0.30160112 0.71885386]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.803312 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 189 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.130272
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206458
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.337239 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.22407582 0.12721272 0.47040769 0.31213206 0.39433664 0.64174785]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.947781 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000314 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 190 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.130556
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206740
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.337843 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.19514534 0.32649371 0.4837552  0.309395   0.22685049 0.78110195]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.388719 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000316 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 191 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.130406
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.335596
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.475568 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2046724  0.11722205 0.34013855 0.27200856 0.4084116  0.69668899]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.684541 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 192 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.129904
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.276056
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.406497 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.28118987 0.05690991 0.56223862 0.28764963 0.60492502 0.95930461]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -0.483693 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000311 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 193 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.133939
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206157
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.340607 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.2633592  0.0432246  0.35610731 0.36643873 0.42870375 0.64995261]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.279528 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000317 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 194 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.133383
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.205898
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.339816 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.1971499  0.08723942 0.48709653 0.40939912 0.29933274 0.67998381]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.765348 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000322 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 195 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.134888
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206882
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.342301 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.23952299 0.05254676 0.602051   0.33026834 0.43637705 0.72467659]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.265227 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000325 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 196 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.138418
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206275
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.345255 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.25538156 0.00461381 0.47861413 0.1773169  0.28699192 0.67597321]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.765528 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000313 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 197 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.139240
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.206797
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.346543 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.09901126 0.         0.41394707 0.28022084 0.43700195 0.7500886 ]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.149041 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 198 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.137023
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.299385
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.436931 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.1393149  0.22068703 0.49091105 0.40992004 0.39611042 0.69287328]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.428312 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000309 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Start iteration 199 ... 
+INFO - robo.solver.bayesian_optimization - Train model...
+INFO - robo.solver.bayesian_optimization - Time to train the model: 0.137892
+INFO - robo.solver.bayesian_optimization - Maximize acquisition function...
+INFO - robo.solver.bayesian_optimization - Time to maximize the acquisition function: 0.357246
+INFO - robo.solver.bayesian_optimization - Optimization overhead was 0.495680 seconds
+INFO - robo.solver.bayesian_optimization - Next candidate [0.27938176 0.29787709 0.51171704 0.20913446 0.30640339 0.58796039]
+INFO - robo.solver.bayesian_optimization - Configuration achieved a performance of -2.775949 
+INFO - robo.solver.bayesian_optimization - Evaluation of this configuration took 0.000312 seconds
+INFO - robo.solver.bayesian_optimization - Current incumbent [0.22201297 0.08980324 0.4155754  0.29992871 0.29985516 0.67690808] with estimated performance -3.223284
+INFO - robo.solver.bayesian_optimization - Return [0.22201296953713645, 0.08980324253817351, 0.415575399958507, 0.2999287057685002, 0.2998551553154988, 0.6769080841506808] as incumbent with error -3.223284 
+INFO - hpolib - Result: {'regret': [3.1845859503321923, 3.1006087259983386, 3.1006087259983386, 2.9336140434467914, 2.9336140434467914, 2.9336140434467914, 2.8695291383160164, 2.8695291383160164, 2.8695291383160164, 2.8695291383160164, 2.8695291383160164, 2.8695291383160164, 2.62911650319052, 2.62911650319052, 2.62911650319052, 2.62911650319052, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.4445342407595922, 1.1850474430420075, 0.9652785446824423, 0.9652785446824423, 0.9652785446824423, 0.9652785446824423, 0.9652785446824423, 0.5481317183924577, 0.5481317183924577, 0.5481317183924577, 0.5481317183924577, 0.5481317183924577, 0.5481317183924577, 0.5481317183924577, 0.508335673958753, 0.508335673958753, 0.3903416266909181, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2696778290571067, 0.2642896072705385, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.22064900613366456, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394, 0.09908430173124394]}
+INFO - hpolib - Completed after 0:00:58
