@@ -11,12 +11,13 @@ from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
 from pysgmcmc.models.objective_functions import sinc
 
 from pysgmcmc.optimizers.sghmchd4 import SGHMCHD
-from pysgmcmc.optimizers.sghmc2 import SGHMC
+# from pysgmcmc.optimizers.sghmc2 import SGHMC
+from robo.models.bnn import BayesianNeuralNetwork as Robo_BNN
 
 from utils import init_random_uniform
 
 SAMPLERS = {
-    "SGHMC": SGHMC,
+    "SGHMC": "sghmc",
     # "SGHMCHD": None  # XXX: Add sghmchd here (in multiple variants?)
 }
 
@@ -41,9 +42,13 @@ def fit_sinc(sampler, stepsize, data_seed, num_training_datapoints=20):
     y_test = sinc(x_test)
 
     sampler, kwargs = SAMPLERS[sampler]
-    model = BayesianNeuralNetwork(
-        optimizer=sampler, learning_rate=stepsize,
-    )
+
+    if sampler == "SGHMC":
+        model = Robo_BNN(sampling_method=SAMPLERS[sampler], l_rate=stepsize)
+    else:
+        model = BayesianNeuralNetwork(
+            optimizer=SAMPLERS[sampler], learning_rate=stepsize,
+        )
 
     model.train(x_train, y_train)
     prediction_mean, prediction_variance = model.predict(x_test)
