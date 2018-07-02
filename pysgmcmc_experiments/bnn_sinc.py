@@ -11,7 +11,7 @@ import numpy as np
 from pysgmcmc.models.bayesian_neural_network import BayesianNeuralNetwork
 from pysgmcmc.models.objective_functions import sinc
 
-# from pysgmcmc.optimizers.sghmchd4 import SGHMCHD
+from pysgmcmc.optimizers.sghmchd4 import SGHMCHD
 # from pysgmcmc.optimizers.sghmc2 import SGHMC
 from robo.models.bnn import BayesianNeuralNetwork as Robo_BNN
 
@@ -19,7 +19,7 @@ from utils import init_random_uniform
 
 SAMPLERS = {
     "SGHMC": "sghmc",
-    # "SGHMCHD": None  # XXX: Add sghmchd here (in multiple variants?)
+    "SGHMCHD": SGHCMHD,
 }
 
 num_repetitions = 10
@@ -30,6 +30,10 @@ CONFIGURATIONS = tuple((
     {"sampler": sampler, "stepsize": stepsize, "data_seed": data_seed}
     for data_seed, sampler, stepsize in product(DATA_SEEDS, SAMPLERS, STEPSIZES)
 ))
+
+CONFIGURATIONS = tuple(
+    configuration for configuration in CONFIGURATIONS if configuration["sampler"] == "SGHMCHD"
+)
 
 
 def fit_sinc(sampler, stepsize, data_seed, num_training_datapoints=20):
