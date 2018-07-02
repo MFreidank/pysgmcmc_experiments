@@ -45,7 +45,7 @@ def fit_uci(sampler, stepsize, data_seed, burn_in_steps=5000,
     results = {}
 
     for dataset in datasets:
-        if dataset is BostonHousing:
+        if dataset.__name__ == "keras.datasets.boston_housing":
             # avoid downloading file - it fails on the cluster
             train_data, (x_test, y_test) = dataset.load_data(
                 path=boston_housing_path, test_split=test_split, seed=data_seed
