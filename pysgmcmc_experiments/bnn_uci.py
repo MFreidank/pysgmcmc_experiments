@@ -49,6 +49,7 @@ def fit_uci(sampler, stepsize, data_seed, burn_in_steps=5000,
 
         if sampler == "sghmc":
             model = Robo_BNN(
+                l_rate=stepsize,
                 sampling_method="sghmc", n_nets=num_nets, burn_in=burn_in_steps,
                 n_iters=num_steps, bsize=batch_size
             )
