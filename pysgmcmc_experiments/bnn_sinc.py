@@ -49,8 +49,10 @@ def fit_sinc(sampler, stepsize, data_seed, num_training_datapoints=20):
     if sampler == "SGHMC":
         model = Robo_BNN(sampling_method=SAMPLERS[sampler], l_rate=stepsize)
     else:
+        from keras.losses import cosine_proximity, kullback_leibler_divergence, binary_crossentropy
         model = BayesianNeuralNetwork(
             optimizer=SAMPLERS[sampler], learning_rate=stepsize,
+            hyperloss=lambda y_true, y_pred: kullback_leibler_divergence(y_true=y_true, y_pred=y_pred[:, 0])
         )
 
     model.train(x_train, y_train)
