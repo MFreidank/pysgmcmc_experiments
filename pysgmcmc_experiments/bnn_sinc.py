@@ -19,7 +19,7 @@ from utils import init_random_uniform
 
 SAMPLERS = {
     "SGHMC": "sghmc",
-    "SGHMCHD": SGHCMHD,
+    "SGHMCHD": SGHMCHD,
 }
 
 num_repetitions = 10
