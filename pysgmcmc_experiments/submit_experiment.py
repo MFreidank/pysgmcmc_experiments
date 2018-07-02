@@ -6,7 +6,6 @@ from os.path import dirname, isfile, splitext, join as path_join
 from subprocess import check_call
 
 
-
 class NoWrappedExperimentFound(ValueError):
     """ Raised if a script does not have a local variable called `experiment` that represents a wrapped sacred experiment. """
 
@@ -48,14 +47,14 @@ def main():
 
     parser.add_argument(
         "--long-running",
-        help="Flag to state that a job will have runtime > 1h 23 min",
+        help="Flag to state that a job will have runtime > 1h 23 min.",
         action="store_true",
         dest="long_running"
     )
 
     parser.add_argument(
         "--log-dir",
-        help="Directory to populate with logfiles. Defaults to $HOME/cluster_utils/logs/",
+        help="Directory to populate with logfiles. Defaults to ./cluster_wrapper/logs/",
         action="store",
         dest="log_directory",
         default=path_join(dirname(__file__), "cluster_wrapper", "logs")

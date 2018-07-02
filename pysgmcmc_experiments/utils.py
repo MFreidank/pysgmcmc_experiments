@@ -25,6 +25,4 @@ def init_random_uniform(lower, upper, num_points, rng=None):
 
     n_dims = lower.shape[0]
 
-    return np.array(
-        [rng.uniform(lower, upper, n_dims) for _ in range(num_points)]
-    )
+    return np.array([rng.uniform(lower, upper, n_dims) for _ in range(num_points)])
