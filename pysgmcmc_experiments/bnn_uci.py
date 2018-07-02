@@ -38,15 +38,22 @@ CONFIGURATIONS = tuple((
 
 def fit_uci(sampler, stepsize, data_seed, burn_in_steps=5000,
             num_steps=15000, num_nets=100, batch_size=32, test_split=0.1):
+    boston_housing_path = path_join(dirname(__file__), "..", "datasets", "boston_housing.npz")
 
     datasets = (BostonHousing, YachtHydrodynamics, Concrete, WineQualityRed)
 
     results = {}
 
     for dataset in datasets:
-        train_data, (x_test, y_test) = dataset.load_data(
-            test_split=test_split, seed=data_seed
-        )
+        if dataset is BostonHousing:
+            # avoid downloading file - it fails on the cluster
+            train_data, (x_test, y_test) = dataset.load_data(
+                path=boston_housing_path, test_split=test_split, seed=data_seed
+            )
+        else:
+            train_data, (x_test, y_test) = dataset.load_data(
+                test_split=test_split, seed=data_seed
+            )
 
         if sampler == "sghmc":
             model = Robo_BNN(
