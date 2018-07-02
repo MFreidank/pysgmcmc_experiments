@@ -73,7 +73,7 @@ def fit_uci(sampler, stepsize, data_seed, burn_in_steps=5000,
 
 
 experiment = to_experiment(
-    experiment_name="bnn_uci",
+    experiment_name="uci",
     function=fit_uci,
     configurations=CONFIGURATIONS,
 )
