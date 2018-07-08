@@ -96,7 +96,7 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
         return loss_fun
 
     loss = loss_for(sampler_cls, energy_function_)(initial_sample)
-    sampler = sampler_cls(params=initial_sample, loss=loss, lr=1e-12)
+    sampler = sampler_cls(params=initial_sample, loss=loss, lr=lr)
 
     _ = list(islice(sampler, burn_in_steps))  # noqa
     samples = np.asarray([sample for _, sample in islice(sampler, sampling_steps)])
