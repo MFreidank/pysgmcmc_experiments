@@ -14,10 +14,6 @@
 # - SVGD (?)
 # - ?
 
-# XXX: TODO: Add more energy functions, take: https://github.com/chi-feng/mcmc-demo/blob/master/main/MCMC.j://github.com/chi-feng/mcmc-demo/blob/master/main/MCMC.js
-# for inspiration!
-# XXX: TODO: Commit changes to samplers (sghmchdSampler, sghmcSampler) in
-# pysgmcmc and pull in this repo (also on the cluster!)
 import sys
 from os.path import dirname, join as path_join
 sys.path.insert(0, path_join(dirname(__file__), ".."))
@@ -81,7 +77,7 @@ SAMPLERS = OrderedDict((
 ))
 
 STEPSIZES = tuple((
-    1e-12, 1e-10, 1e-8, 1e-6, 1e-4, 1e-2, 0.25, 0.5, 1.0,
+    1e-2, 0.25, 0.5, 1.0,
 ))
 
 CONFIGURATIONS = tuple((
@@ -98,12 +94,22 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
 
     if sampler in PYMC3_SAMPLERS:
         with pm.Model():
-            # Define energy function as pymc3 distribution
-            energy_function.to_pymc3()
-            step = sampler_cls(step_scale=stepsize)
-            trace = pm.sample(sampling_steps, tune=burn_in_steps, step=step)
-            # XXX: Convert traces to normal numpy arrays here and return them.
-            return {"samples": None}
+            energy_function_.to_pymc3()
+            if sampler in ("NUTS", "HMC"):
+                step = SAMPLERS[sampler](step_scale=stepsize)
+            else:
+                step = SAMPLERS[sampler]()
+            trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step)
+            samples = np.asarray([
+                tuple(step.values())[0]
+                for step in trace
+            ])
+            try:
+                num_steps, num_parameters, num_chains = samples.shape
+            except ValueError:
+                num_steps, num_parameters, num_chains = (*samples.shape, 1)
+            samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
+            return {"samples": samples}
 
     def loss_for(sampler, energy_function):
         def loss_fun(sample):
