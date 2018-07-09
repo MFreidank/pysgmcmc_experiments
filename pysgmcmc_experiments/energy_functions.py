@@ -3,10 +3,14 @@
 # plots and pymc3 plots.
 
 # List of samplers:
-# - SGHMC (sgmcmc, theano)
-# - SGHMCHD (pysgmcmc, keras)
-# - SGLD (pysgmcmc, tensorflow) <- from tensorflow_probability
+# - SGHMC (sgmcmc, theano) [x]
+# - SGHMCHD (pysgmcmc, keras) [x]
+# - SGLD (pysgmcmc, tensorflow) [x] <- from tensorflow_probability
+# - HMC(pymc3)
 # - NUTS (pymc3, pymc3) <- compare to NUTS here as well!
+# - slice/metropolis (pymc3)
+
+# Left to add:
 # - SVGD (?)
 # - ?
 
@@ -34,6 +38,7 @@ from pysgmcmc.samplers.sghmchd import SGHMCHDSampler
 from pysgmcmc.samplers.sgld import SGLDSampler
 
 from pysgmcmc_experiments.experiment_wrapper import to_experiment
+import pymc3 as pm
 
 
 ENERGY_FUNCTIONS = OrderedDict((
@@ -63,10 +68,16 @@ ENERGY_FUNCTIONS = OrderedDict((
                          K.random_normal_variable(mean=0., scale=1., shape=(1,))])),
 ))
 
+
+PYMC3_SAMPLERS = ("NUTS", "HMC", "Metropolis", "Slice",)
 SAMPLERS = OrderedDict((
-    # ("SGHMC", SGHMCSampler),  # FIXME : use theano sampler from sgmcmc here!
-    ("SGHMCHD", SGHMCHDSampler),
-    ("SGLD", SGLDSampler),
+    # ("SGHMC", SGHMCSampler),
+    # ("SGHMCHD", SGHMCHDSampler),
+    # ("SGLD", SGLDSampler),
+    ("NUTS", pm.step_methods.NUTS),
+    ("HMC", pm.step_methods.HamiltonianMC),
+    ("Metropolis", pm.step_methods.Metropolis),
+    ("Slice", pm.step_methods.Slice),
 ))
 
 STEPSIZES = tuple((
@@ -85,8 +96,16 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
     initial_sample = initial_guess()
     sampler_cls = SAMPLERS[sampler]
 
+    if sampler in PYMC3_SAMPLERS:
+        with pm.Model():
+            # Define energy function as pymc3 distribution
+            energy_function.to_pymc3()
+            step = sampler_cls(step_scale=stepsize)
+            trace = pm.sample(sampling_steps, tune=burn_in_steps, step=step)
+            # XXX: Convert traces to normal numpy arrays here and return them.
+            return {"samples": None}
+
     def loss_for(sampler, energy_function):
-        # XXX: Case distinction for different samplers?
         def loss_fun(sample):
             loss_tensor = to_negative_log_likelihood(energy_function)(sample)
             for param in sample:
