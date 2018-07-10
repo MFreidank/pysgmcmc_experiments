@@ -41,6 +41,7 @@ from pysgmcmc.samplers.energy_functions import (
     StandardNormal,
     Donut, Squiggle,
 )
+from pysgmcmc.samplers.sghmc import SGHMCSampler
 from pysgmcmc.samplers.sghmchd import SGHMCHDSampler
 from pysgmcmc.samplers.sgld import SGLDSampler
 
