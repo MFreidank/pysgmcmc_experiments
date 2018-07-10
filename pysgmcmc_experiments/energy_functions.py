@@ -41,6 +41,7 @@ from pysgmcmc.samplers.energy_functions import (
     StandardNormal,
     Donut, Squiggle,
 )
+from pysgmcmc.samplers.sghmc import SGHMCSampler
 from pysgmcmc.samplers.sghmchd import SGHMCHDSampler
 from pysgmcmc.samplers.sgld import SGLDSampler
 
@@ -101,9 +102,9 @@ ENERGY_FUNCTIONS = OrderedDict((
 
 PYMC3_SAMPLERS = ("NUTS", "HMC", "Metropolis", "Slice",)
 SAMPLERS = OrderedDict((
-    # ("SGHMC", SGHMCSampler),
-    # ("SGHMCHD", SGHMCHDSampler),
-    # ("SGLD", SGLDSampler),
+    ("SGHMC", SGHMCSampler),
+    ("SGHMCHD", SGHMCHDSampler),
+    ("SGLD", SGLDSampler),
     ("NUTS", pm.step_methods.NUTS),
     ("HMC", pm.step_methods.HamiltonianMC),
     ("Metropolis", pm.step_methods.Metropolis),
@@ -147,11 +148,11 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
                 )
             elif sampler == "HMC":
                 step = init_hmc(stepsize=stepsize, model=model)
-                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1, init="apapt_diag")
+                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
             else:
                 step = SAMPLERS[sampler]()
                 trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
-            # trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
+
             samples = np.asarray([
                 tuple(step.values())[0]
                 for step in trace
@@ -183,7 +184,6 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
     if np.isnan(samples).any():
         print("Had nans..iterating")
         return get_trace(sampler, stepsize, energy_function, burn_in_steps, sampling_steps)
-
 
     num_steps, num_parameters, num_chains = samples.shape
     samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
