@@ -180,6 +180,10 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
 
     _ = list(islice(sampler, burn_in_steps))  # noqa
     samples = np.asarray([sample for _, sample in islice(sampler, sampling_steps)])
+    if np.isnan(samples).any():
+        print("Had nans..iterating")
+        return get_trace(sampler, stepsize, energy_function, burn_in_steps, sampling_steps)
+
 
     num_steps, num_parameters, num_chains = samples.shape
     samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
