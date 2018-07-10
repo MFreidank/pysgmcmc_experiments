@@ -101,9 +101,9 @@ ENERGY_FUNCTIONS = OrderedDict((
 
 PYMC3_SAMPLERS = ("NUTS", "HMC", "Metropolis", "Slice",)
 SAMPLERS = OrderedDict((
-    # ("SGHMC", SGHMCSampler),
-    # ("SGHMCHD", SGHMCHDSampler),
-    # ("SGLD", SGLDSampler),
+    ("SGHMC", SGHMCSampler),
+    ("SGHMCHD", SGHMCHDSampler),
+    ("SGLD", SGLDSampler),
     ("NUTS", pm.step_methods.NUTS),
     ("HMC", pm.step_methods.HamiltonianMC),
     ("Metropolis", pm.step_methods.Metropolis),
@@ -147,11 +147,11 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
                 )
             elif sampler == "HMC":
                 step = init_hmc(stepsize=stepsize, model=model)
-                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1, init="apapt_diag")
+                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
             else:
                 step = SAMPLERS[sampler]()
                 trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
-            # trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
+
             samples = np.asarray([
                 tuple(step.values())[0]
                 for step in trace
