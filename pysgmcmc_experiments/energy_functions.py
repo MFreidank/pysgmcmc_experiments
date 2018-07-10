@@ -164,7 +164,7 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
                 except ValueError:
                     num_steps, num_parameters, num_chains = (*samples.shape, 1, 1)
             samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
-            return {"samples": samples}
+            return {"samples": samples.tolist()}
 
     def loss_for(sampler, energy_function):
         def loss_fun(sample):
