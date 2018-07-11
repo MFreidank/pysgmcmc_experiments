@@ -177,13 +177,13 @@ def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_s
         return loss_fun
 
     loss = loss_for(sampler_cls, energy_function_)(initial_sample)
-    sampler = sampler_cls(params=initial_sample, loss=loss, lr=stepsize)
+    sampler_ = sampler_cls(params=initial_sample, loss=loss, lr=stepsize)
 
-    _ = list(islice(sampler, burn_in_steps))  # noqa
-    samples = np.asarray([sample for _, sample in islice(sampler, sampling_steps)])
+    _ = list(islice(sampler_, burn_in_steps))  # noqa
+    samples = np.asarray([sample for _, sample in islice(sampler_, sampling_steps)])
     if np.isnan(samples).any():
         print("Had nans..iterating")
-        return get_trace(sampler, stepsize, energy_function, burn_in_steps, sampling_steps)
+        return get_trace(sampler_, stepsize, energy_function, burn_in_steps, sampling_steps)
 
     num_steps, num_parameters, num_chains = samples.shape
     samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
