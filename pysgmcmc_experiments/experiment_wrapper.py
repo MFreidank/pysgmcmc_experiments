@@ -31,6 +31,18 @@ def to_experiment(experiment_name, configurations, function, observers=None):
                     "{parameter}={value}".format(parameter=parameter, value=value)
                     for parameter, value in configuration.items()
                 )
+            if configurations:
+                if isinstance(configurations[0], str):  # configurations given as filepaths
+                    return tuple(
+                        "{interpreter} {script} with {configuration}\n".format(
+                            interpreter=interpreter,
+                            script=scriptpath,
+                            configuration=configuration
+                        )
+                        for configuration in configurations
+                    )
+                assert isinstance(configurations[0], dict)
+
             configurations_ = configurations or self.configurations
             return tuple(
                 "{interpreter} {script} with {configuration}\n".format(
