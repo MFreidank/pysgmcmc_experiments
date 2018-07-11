@@ -22,22 +22,23 @@ def to_experiment(experiment_name, configurations, function, observers=None):
             for observer in observers:
                 self.experiment.observers.append(
                     observer
-
                 )
 
-        def to_jobs(self, interpreter="/usr/bin/python3", scriptpath=abspath(__file__)):
+        def to_jobs(self, interpreter="/usr/bin/python3", scriptpath=abspath(__file__),
+                    configurations=None):
             def format_configuration(configuration):
                 return " ".join(
                     "{parameter}={value}".format(parameter=parameter, value=value)
                     for parameter, value in configuration.items()
                 )
+            configurations_ = configurations or self.configurations
             return tuple(
                 "{interpreter} {script} with {configuration}\n".format(
                     interpreter=interpreter,
                     script=scriptpath,
                     configuration=format_configuration(configuration)
                 )
-                for configuration in self.configurations
+                for configuration in configurations_
             )
 
     wrapper = SacredExperiment()

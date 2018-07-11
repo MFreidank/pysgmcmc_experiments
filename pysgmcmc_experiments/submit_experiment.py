@@ -2,6 +2,7 @@
 # -*- coding: iso-8859-15 -*-
 import argparse
 import imp
+import json
 from os.path import dirname, isfile, splitext, join as path_join
 from subprocess import check_call
 
@@ -69,6 +70,13 @@ def main():
         default=path_join(dirname(__file__), "cluster_wrapper", "cluster_environment.sh")
     )
 
+    parser.add_argument(
+        "--configuration-file",
+        help="Run configurations in a given file instead of relying on configuration "
+             "variable in the target script. Can be used to do partial re-runs.",
+        default=None
+    )
+
     args = parser.parse_args()
     assert isfile(args.scriptpath), args.scriptpath
 
@@ -99,12 +107,17 @@ def main():
     assert args.queue in queues
     print(args.job_filename)
 
+    configurations = None
+    if args.configuration_file:
+        with open(args.configuration_file) as f:
+            configurations = json.load(f)
+
     with open(args.job_filename, "w") as f:
         for _ in range(args.repeat):
             if args.head is not None:
-                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath)[:int(args.head)])
+                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath, configurations=configurations)[:int(args.head)])
             else:
-                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath))
+                f.writelines(experiment.to_jobs(interpreter=args.interpreter, scriptpath=args.scriptpath, configurations=configurations))
 
     # Submit jobs file to cluster queue
 
