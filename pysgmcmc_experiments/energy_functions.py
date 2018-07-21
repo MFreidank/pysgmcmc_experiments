@@ -35,6 +35,7 @@ from keras import backend as K
 from collections import OrderedDict
 from itertools import islice, product
 
+from pysgmcmc.diagnostics import PYSGMCMCTrace
 from pysgmcmc.samplers.energy_functions import (
     to_negative_log_likelihood,
     Banana, Gmm1, Gmm2, Gmm3, MoGL2HMC,
@@ -47,6 +48,11 @@ from pysgmcmc.samplers.sgld import SGLDSampler
 
 from pysgmcmc_experiments.experiment_wrapper import to_experiment
 import pymc3 as pm
+
+import dill
+
+# XXX: Handle variable naming properly.
+EXPERIMENT_NAME = "energy_functions"
 
 
 def init_hmc(model, stepsize, init="jitter+adapt_diag", chains=1):
@@ -93,10 +99,10 @@ ENERGY_FUNCTIONS = OrderedDict((
      ),
     ("donut",
      (Donut(), lambda: [K.random_normal_variable(mean=0., scale=1., shape=(1,)),
-                         K.random_normal_variable(mean=0., scale=1., shape=(1,))])),
+                        K.random_normal_variable(mean=0., scale=1., shape=(1,))])),
     ("squiggle",
      (Squiggle(), lambda: [K.random_normal_variable(mean=0., scale=1., shape=(1,)),
-                         K.random_normal_variable(mean=0., scale=1., shape=(1,))])),
+                           K.random_normal_variable(mean=0., scale=1., shape=(1,))])),
 ))
 
 
@@ -112,86 +118,115 @@ SAMPLERS = OrderedDict((
 ))
 
 STEPSIZES = tuple((
-    1e-2, 0.25, 0.5, 1.0,
+    1e-12, 1e-10, 1e-8, 1e-6, 1e-4, 1e-2, 0.25, 0.5, 1.0,
 ))
 
-CONFIGURATIONS = tuple((
+CONFIGURATIONS = [
     {"energy_function": energy_function, "sampler": sampler, "stepsize": stepsize}
     for energy_function, sampler, stepsize in
     product(ENERGY_FUNCTIONS, SAMPLERS, STEPSIZES)
-))
+    if sampler not in ("Metropolis", "Slice")
+]
+
+CONFIGURATIONS.extend([
+    {"energy_function": energy_function, "sampler": sampler, "stepsize": None}
+    for energy_function, sampler in
+    product(ENERGY_FUNCTIONS, ("Metropolis", "Slice"))
+])
 
 
-def get_trace(sampler, stepsize, energy_function, burn_in_steps=3000, sampling_steps=10 ** 4):
+def get_trace(sampler, stepsize, energy_function, _run, burn_in_steps=3000, sampling_steps=10 ** 4, num_chains=10):
     energy_function_, initial_guess = ENERGY_FUNCTIONS[energy_function]
     initial_sample = initial_guess()
     sampler_cls = SAMPLERS[sampler]
 
     if sampler in PYMC3_SAMPLERS:
-        with pm.Model() as model:
-            energy_function_.to_pymc3()
-            if sampler == "NUTS":
-                from pymc3.sampling import init_nuts
-                start, step = init_nuts(
-                    init="auto",
-                    n_init=200000,
-                    model=model,
-                    progressbar=True
-                )
+        def draw_trace(chain_id):
+            with pm.Model() as model:
+                energy_function_.to_pymc3()
+                if sampler == "NUTS":
+                    from pymc3.sampling import init_nuts
+                    start, step = init_nuts(
+                        init="auto",
+                        n_init=200000,
+                        model=model,
+                        progressbar=True
+                    )
 
-                trace = pm.sample(
-                    sampling_steps + burn_in_steps,
-                    tune=burn_in_steps,
-                    step=step,
-                    chains=1,
-                    start=start
-                )
-            elif sampler == "HMC":
-                step = init_hmc(stepsize=stepsize, model=model)
-                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
-            else:
-                step = SAMPLERS[sampler]()
-                trace = pm.sample(sampling_steps + burn_in_steps, tune=burn_in_steps, step=step, chains=1)
+                    trace = pm.sample(
+                        sampling_steps,
+                        tune=burn_in_steps,
+                        step=step,
+                        chains=1,
+                        chain_idx=chain_id,
+                        start=start,
+                        discard_tuned_samples=False
+                    )
+                elif sampler == "HMC":
+                    step = init_hmc(stepsize=stepsize, model=model)
+                    trace = pm.sample(sampling_steps, tune=burn_in_steps, step=step, chains=1, discard_tuned_samples=False)
+                else:
+                    step = SAMPLERS[sampler]()
+                    trace = pm.sample(
+                        sampling_steps,
+                        tune=burn_in_steps,
+                        step=step,
+                        chains=1,
+                        chain_idx=chain_id,
+                        discard_tuned_samples=False
+                    )
 
+                return trace
+
+        def combine_traces(multitraces):
+            base_trace = multitraces[0]
+            for multitrace in multitraces[1:]:
+                for chain, strace in multitrace._straces.items():
+                    if chain in base_trace._straces:
+                        raise ValueError("Chains are not unique.")
+                    base_trace._straces[chain] = strace
+            return base_trace
+
+        multitrace = combine_traces(
+            [draw_trace(chain_id=chain_id) for chain_id in range(num_chains)]
+        )
+
+    else:
+        def loss_for(sampler, energy_function):
+            def loss_fun(sample):
+                loss_tensor = to_negative_log_likelihood(energy_function)(sample)
+                for param in sample:
+                    param.hypergradient = K.gradients(loss_tensor, param)
+
+                return loss_tensor
+            return loss_fun
+
+        def draw_chain():
+            loss = loss_for(sampler_cls, energy_function_)(initial_sample)
+            sampler_ = sampler_cls(params=initial_sample, loss=loss, lr=stepsize)
             samples = np.asarray([
-                tuple(step.values())[0]
-                for step in trace
+                sample for _, sample in islice(sampler_, burn_in_steps + sampling_steps)
             ])
-            try:
-                num_steps, num_parameters, num_chains = samples.shape
-            except ValueError:
-                try:
-                    num_steps, num_parameters, num_chains = (*samples.shape, 1)
-                except ValueError:
-                    num_steps, num_parameters, num_chains = (*samples.shape, 1, 1)
-            samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
-            return {"samples": samples.tolist()}
 
-    def loss_for(sampler, energy_function):
-        def loss_fun(sample):
-            loss_tensor = to_negative_log_likelihood(energy_function)(sample)
-            for param in sample:
-                param.hypergradient = K.gradients(loss_tensor, param)
+            if np.isnan(samples).any():
+                print("Had nans.. iterating")
+                return draw_chain()
 
-            return loss_tensor
-        return loss_fun
+            return np.squeeze(samples, 2)
 
-    loss = loss_for(sampler_cls, energy_function_)(initial_sample)
-    sampler_ = sampler_cls(params=initial_sample, loss=loss, lr=stepsize)
+        multitrace = pm.backends.base.MultiTrace([PYSGMCMCTrace(draw_chain(), chain_id=id) for id in range(num_chains)])
 
-    _ = list(islice(sampler_, burn_in_steps))  # noqa
-    samples = np.asarray([sample for _, sample in islice(sampler_, sampling_steps)])
-    if np.isnan(samples).any():
-        print("Had nans..iterating")
-        return get_trace(sampler_, stepsize, energy_function, burn_in_steps, sampling_steps)
+    output_filename = path_join(
+        dirname(__file__),
+        "../results/{}/{}/trace.pkl".format(EXPERIMENT_NAME, _run._id)
+    )
+    with open(output_filename, "wb") as trace_buffer:
+        dill.dump(multitrace, trace_buffer)
 
-    num_steps, num_parameters, num_chains = samples.shape
-    samples = np.reshape(samples, (num_chains, num_steps, num_parameters))
-
-    return {"samples": samples.tolist()}
+    return True
 
 experiment = to_experiment(
-    experiment_name="energy_functions",
+    experiment_name=EXPERIMENT_NAME,
     function=get_trace,
     configurations=CONFIGURATIONS,
 )
