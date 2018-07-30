@@ -111,11 +111,14 @@ def fit_autompg(sampler, stepsize, num_steps=15000,
                 burn_in_steps=5000, num_nets=100, batch_size=32,
                 data_seed=1, test_split=0.1):
 
-    DATASET_FILENAME = lambda x: path_join("./datasets/", x)
+    DATASET_FILENAME = path_join(
+        dirname(__file__), "pysgmcmc_development",
+        "datasets", "auto-mpg.data_cleaned"
+    )
     categorical_columns = ("cylinders", "model year", "origin", "car name")
     label_column = "mpg"
 
-    df = pd.read_csv(DATASET_FILENAME("auto-mpg.data_cleaned"), sep="\t")
+    df = pd.read_csv(DATASET_FILENAME, sep="\t")
 
     for column in categorical_columns:
         df = categories(df, column)
