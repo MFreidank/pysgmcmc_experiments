@@ -52,7 +52,7 @@ def rename(name):
         "sin_one": "sinOne", "sin_two": "sinTwo",  # Hpolib synthetic functions
 
         "gp": "GP", "gp_mcmc": "GP_MCMC", "RF": "RF", "bohamiann": "BOHAMIANN",
-        "keras_bohamiann": "BOHAMIANN_TF", "random_search": "Random Search",
+        "keras_bohamiann": "BOHAMIANN-HD", "random_search": "Random Search",
         "entropy_search": "Entropy Search",  # RoBo fmin choices
 
         "BostonHousing": "Boston Housing",
