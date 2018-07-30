@@ -91,7 +91,7 @@ def categories(df, column):
     return df
 
 SAMPLERS = {
-    "sghmc": "sghmc",
+    "sghmc": SGHMC,
     "SGHMCHD": SGHMCHD
 }
 
