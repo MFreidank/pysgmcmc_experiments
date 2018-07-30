@@ -164,7 +164,7 @@ def get_trace(sampler, stepsize, energy_function, _run, burn_in_steps=3000, samp
                     )
                 elif sampler == "HMC":
                     step = init_hmc(stepsize=stepsize, model=model)
-                    trace = pm.sample(sampling_steps, tune=burn_in_steps, step=step, chains=1, discard_tuned_samples=False)
+                    trace = pm.sample(sampling_steps, tune=burn_in_steps, step=step, chains=1, discard_tuned_samples=False, chain_idx=chain_id)
                 else:
                     step = SAMPLERS[sampler]()
                     trace = pm.sample(
