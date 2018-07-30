@@ -3,6 +3,7 @@ from os.path import dirname, join as path_join
 sys.path.insert(0, path_join(dirname(__file__), ".."))
 sys.path.insert(0, path_join(dirname(__file__), "robo"))
 sys.path.insert(0, path_join(dirname(__file__), "pysgmcmc_development"))
+from pysgmcmc_experiments.experiment_wrapper import to_experiment
 
 import numpy as np
 
@@ -180,3 +181,9 @@ def fit_autompg(sampler, stepsize, num_steps=15000,
         "prediction_variance": prediction_variance.tolist(),
         "samples": [sample.tolist() for sample in model.sampled_weights]
     }
+
+experiment = to_experiment(
+    experiment_name="autompg",
+    function=fit_autompg,
+    configurations=CONFIGURATIONS,
+)
