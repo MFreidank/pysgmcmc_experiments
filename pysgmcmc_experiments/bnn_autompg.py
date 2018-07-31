@@ -154,7 +154,7 @@ def fit_autompg(sampler, stepsize, num_steps=15000,
         batch_size=batch_size,
         batch_generator=batch_generator_embedding,
         network_architecture=network_factory,
-        optimizer=sampler,
+        optimizer=SAMPLERS[sampler],
         hyperloss=lambda y_true, y_pred: cosine_proximity(
             y_true=y_true, y_pred=y_pred[:, 0]
         ),
