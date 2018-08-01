@@ -20,6 +20,7 @@ from pysgmcmc.optimizers.sghmc import SGHMC
 from pysgmcmc.models.bayesian_neural_network import (
     BayesianNeuralNetwork
 )
+from pysgmcmc_experiments.utils import listify
 
 from itertools import product
 
@@ -175,11 +176,11 @@ def fit_autompg(sampler, stepsize, num_steps=15000,
     prediction_mean, prediction_variance = model.predict(x_test)
 
     return {
-        "x_test": [arr.tolist() for arr in x_test],
-        "y_test": y_test.tolist(),
-        "prediction_mean": prediction_mean.tolist(),
-        "prediction_variance": prediction_variance.tolist(),
-        "samples": [sample.tolist() for sample in model.sampled_weights]
+        "x_test": listify(x_test),
+        "y_test": listify(y_test),
+        "prediction_mean": listify(prediction_mean),
+        "prediction_variance": listify(prediction_variance),
+        "samples": listify(model.sampled_weights)
     }
 
 experiment = to_experiment(
