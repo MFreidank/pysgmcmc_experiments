@@ -175,7 +175,7 @@ def fit_autompg(sampler, stepsize, num_steps=15000,
     prediction_mean, prediction_variance = model.predict(x_test)
 
     return {
-        "x_test": x_test.tolist(),
+        "x_test": [arr.tolist() for arr in x_test],
         "y_test": y_test.tolist(),
         "prediction_mean": prediction_mean.tolist(),
         "prediction_variance": prediction_variance.tolist(),
