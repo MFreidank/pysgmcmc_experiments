@@ -78,3 +78,14 @@ def format_sampler(sampler, stepsize):
     return "{sampler} $\epsilon_0 = {stepsize}$".format(
         sampler=sampler.upper(), stepsize=format_tex(stepsize)
     )
+
+
+def listify(iterable):
+    if isinstance(iterable, np.ndarray):
+        return iterable.tolist()
+    try:
+        iter(iterable)
+    except TypeError:
+        return iterable
+    else:
+        return [listify(el) for el in iterable]
